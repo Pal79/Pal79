@@ -6,6 +6,7 @@
 - [Even or Odd](./python/even-odd.md)
 - [Leap year](./python/leap-year.md)
 - [Pizza order](./python/pizza-order.md)
+- [Love calculator](./python/love-calculator.md)
 
 ---
 
