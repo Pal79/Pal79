@@ -2,7 +2,7 @@
 ---
 
 - [BMI calculator](./python/bmi.md)
-- [life in weeks]()
+- [life in weeks](./python/life-in-weeks.md)
 
 ---
 
