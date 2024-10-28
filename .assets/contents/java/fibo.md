@@ -1,8 +1,8 @@
 
 ---
 
-- [Back](../../../README.md)
 - [Back to Java](../java.md)
+- [Back to main](../../../README.md)
 
 ---
 
@@ -69,7 +69,7 @@ public class Main {
 
 ---
 
-- [Back](../../../README.md)
 - [Back to Java](../java.md)
+- [Back to main](../../../README.md)
 
 ---
