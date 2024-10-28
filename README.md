@@ -1,10 +1,17 @@
-- 👋 Hi, I’m Dániel Pál
-- 👀 I’m interested in Java programming
-- 🌱 I’m currently working other section, but i want change and work and learn programming.
-- 💞️ 
-- 📫 To reach me -  email: pal.daniel.79@gmail.com
 
-<!---
-Pal79/Pal79 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+Hello, I'm Daniel. I'm hungarian fornt and backend developer.
+I learned Java programming at the webler training studio, 
+then I also learned python and frontend web development on Udemy.
+
+I used to learn only as a hobby, but now I want to try and improve my knowledge.
+
+I'm currently studying at the: Szent László High School
+
+---
+
+📧 pal.daniel.79@gmail.com
+☎️ +3620/288-8719
+
+---
