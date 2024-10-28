@@ -1,8 +1,8 @@
 
 ---
 
-- [Back to python](../python.md)
-- [Back to main](../../../README.md)
+- [Back to the Python](../python.md)
+- [Back to the Main](../../../README.md)
 
 ---
 
@@ -17,7 +17,7 @@ print(f"You have { weeks} weeks left.")
 
 ---
 
-- [Back to python](../python.md)
-- [Back to main](../../../README.md)
+- [Back to the Python](../python.md)
+- [Back to the Main](../../../README.md)
 
 ---
