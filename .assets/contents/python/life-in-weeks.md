@@ -7,7 +7,7 @@
 ---
 
 ```python
-age = input('Enter your age')
+age = input('Enter your age: ')
 
 how_many_age = 90 - int(age)
 weeks = how_many_age * 52
