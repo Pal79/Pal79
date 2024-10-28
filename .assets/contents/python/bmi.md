@@ -9,8 +9,8 @@
 1. BMI calculator:
 
 ```python
-height = input(enter height in meters e.g: 1.65)
-weight = input(enter weight in kilograms e.g: 72)
+height = input(enter height in meters e.g: 1.65: )
+weight = input(enter weight in kilograms e.g: 72: )
 
 w = float(weight)
 h = float(height)
@@ -21,8 +21,8 @@ print(int(bmi))
 1. BMI calculator 2.0
 
 ```python
-height = float(input(Enter your height in meters e.g., 1.55))
-weight = int(input(Enter your weight in kilograms e.g., 72))
+height = float(input(Enter your height in meters e.g., 1.55: ))
+weight = int(input(Enter your weight in kilograms e.g., 72: ))
 
 bmi = weight / (height * height)
 
