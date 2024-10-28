@@ -5,6 +5,7 @@
 - [life in weeks](./python/life-in-weeks.md)
 - [Even or Odd](./python/even-odd.md)
 - [Leap year](./python/leap-year.md)
+- [Pizza order](./python/pizza-order.md)
 
 ---
 
