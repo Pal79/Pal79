@@ -13,6 +13,10 @@ I'm currently studying at the: Szent László High School
 
 ---
 
+- [Java](.assets/contents/java.md)
+
+---
+
 - 📧 pal.daniel.79@gmail.com
 
 ---
