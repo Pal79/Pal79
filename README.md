@@ -14,6 +14,5 @@ I'm currently studying at the: Szent László High School
 ---
 
 - 📧 pal.daniel.79@gmail.com
-- ☎️ +3620/288-8719
 
 ---
