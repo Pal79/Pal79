@@ -8,6 +8,7 @@
 - [Pizza order](./python/pizza-order.md)
 - [Love calculator](./python/love-calculator.md)
 - [Heads or Tails](./python/heads-or-tails.md)
+- [FizzBuzz](./python/fizzbuzz.md)
 
 ---
 
