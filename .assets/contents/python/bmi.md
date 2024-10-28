@@ -1,8 +1,8 @@
 
 ---
 
-- [Back to python](../python.md)
-- [Back to main](../../../README.md)
+- [Back to the Python](../python.md)
+- [Back to the Main](../../../README.md)
 
 ---
 
@@ -40,7 +40,7 @@ else:
 
 ---
 
-- [Back to python](../python.md)
-- [Back to main](../../../README.md)
+- [Back to the Python](../python.md)
+- [Back to the Main](../../../README.md)
 
 ---
