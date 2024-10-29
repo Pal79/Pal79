@@ -2,6 +2,7 @@
 ---
 
 - [Fibonacci](./java/fibo.md)
+- [Cylinder](./java/cylinder.md)
 
 ---
 
