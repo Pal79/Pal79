@@ -9,6 +9,7 @@
 - [Love calculator](./python/love-calculator.md)
 - [Heads or Tails](./python/heads-or-tails.md)
 - [FizzBuzz](./python/fizzbuzz.md)
+- [Prime Numbers](./python/prime-numbers.md)
 
 ---
 
