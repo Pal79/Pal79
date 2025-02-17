@@ -1,4 +1,11 @@
 
+---
+
+- [Back to java](../java.md)
+- [Back to main](../../../README.md)
+
+---
+
 # (alvasido)
 
 > Olvasd be, hogy a felhasználó átlagosan hány órát alszik naponta 
@@ -36,3 +43,10 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("Hibás adatbevitel!");
 		}
 ```
+
+---
+
+- [Back to java](../java.md)
+- [Back to main](../../../README.md)
+
+---
