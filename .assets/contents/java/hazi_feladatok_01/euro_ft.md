@@ -1,4 +1,11 @@
 
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
+
 # (euro_ft)
 
 > Programunk kérje be az Euró árfolyamát (1 € hány Ft-ot ér), 
@@ -32,3 +39,10 @@ public static void main(String[] args) {
   }
 }
 ```
+
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
