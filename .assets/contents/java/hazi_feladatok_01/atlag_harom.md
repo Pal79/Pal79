@@ -1,4 +1,11 @@
 
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
+
 # (atlag_harom)
 
 > Kérj be 3 egész számot, majd írd ki az átlagukat!
@@ -27,3 +34,10 @@ public static void main(String[] args) {
 	System.out.println("A három szám átlaga: " + result);		
 }
 ```
+
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
