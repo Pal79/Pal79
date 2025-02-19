@@ -1,4 +1,10 @@
 
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
 
 # (tortszamok_hasonlit)
 
@@ -34,3 +40,9 @@ public static void main(String[] args) {
 }
 ```
 
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
