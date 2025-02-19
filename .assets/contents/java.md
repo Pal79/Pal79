@@ -33,7 +33,7 @@
 1. [Zöldséges](./java/hazi_feladatok_01/zoldseges.md)
 1. [Született főváros](./java/hazi_feladatok_01/szuletett_fovaros.md)
 1. [Háromszög szerkeszthető](./java/hazi_feladatok_01/haromszog_szerkesztheto.md)
-1. [Színházi jegyek](./java/hazi_feladatok_01/szinhazi_jegyek.md)
+1. [Színház jegyek](./java/hazi_feladatok_01/szinhaz_jegyek.md)
 1. [Távolság](./java/hazi_feladatok_01/tavolsag.md)
 1. [Évszakok](./java/hazi_feladatok_01/evszakok.md)
 1. [Alvásidő](./java/hazi_feladatok_01/alvasido.md)
