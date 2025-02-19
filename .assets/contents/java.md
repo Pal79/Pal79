@@ -48,7 +48,7 @@
 1. [Szökőév](./java/hazi_feladatok_01/szokoEv.md)
 1. [Pénztáros](./java/hazi_feladatok_01/penztaros.md)
 1. [Sípálya](./java/hazi_feladatok_01/sipalya.md)
-1. [Körkúp](./java/hazi_feladatok_01/korkup.md)
+1. [Körkúp - még nincs kész!](./java/hazi_feladatok_01/korkup.md)
 
 </details>
 
