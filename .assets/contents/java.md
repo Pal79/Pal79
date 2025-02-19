@@ -12,6 +12,7 @@
 1. [Pitagorasz](./java/hazi_feladatok_01/pitagorasz.md)
 1. [Üzemanyag](./java/hazi_feladatok_01/uzemanyag.md)
 1. [Téglalap terület kerület](./java/hazi_feladatok_01/teglalap_ter_ker.md)
+1. [Kör kerület terület](./java/hazi_feladatok_01/kor_ker_ter.md)
 1. [Maradék nélkül öttel hárommal](./java/hazi_feladatok_01/maradek_nelkul_ottel_harommal.md)
 1. [Felnőtt e](./java/hazi_feladatok_01/felnott_e.md)
 1. [Átlag három](./java/hazi_feladatok_01/atlag_harom.md)
