@@ -21,7 +21,7 @@ public static void main(String[] args) {
   System.out.print("Adj meg egy számot: ");
   Integer num = input.nextInt();
 		
-  if(num%5 == 0 && num%3 == 0) {
+  if(num % 5 == 0 && num % 3 == 0) {
   	System.out.println("Az adott szám " + num + ", osztható 5-el és 3-al.");
   } else {
   	System.out.println("Az adott szám " + num + ", nem osztható 5-el és 3-al. ");
