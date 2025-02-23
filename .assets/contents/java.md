@@ -53,7 +53,7 @@
 </details>
 
 <details>
-  <summary>Házi Feladatok 01</summary>
+  <summary>Házi Feladatok 02</summary>
 
 1. [Öt véletlen szám átlag](./java/hazi_feladatok_02/ot_veletlen_atlag.md)
 1. [Tíz véletlen páros páratlan](./java/hazi_feladatok_02/tiz_veletlen_paros_paratlan.md)
