@@ -56,7 +56,12 @@
   <summary>Házi Feladatok 01</summary>
 
 1. [Öt véletlen szám átlag](./java/hazi_feladatok_02/ot_veletlen_atlag.md)
-  
+1. [Tíz véletlen páros páratlan](./java/hazi_feladatok_02/tiz_veletlen_paros_paratlan.md)
+1. [Dolgozó fizetés átlag](./java/hazi_feladatok_02/dolgozo_fizetes_atlag.md)
+1. [számok amíg nem 7](./java/hazi_feladatok_02/szamok_amig_nem_het.md)
+1. [hárommal és néggyel osztható](./java/hazi_feladatok_02/harommal_neggyel_oszthato.md)
+1. [nyolc elemű tömb](./java/hazi_feladatok_02/tomb_nyolc_elem.md)
+
 </details
 
 ---
