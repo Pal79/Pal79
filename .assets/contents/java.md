@@ -52,6 +52,13 @@
 
 </details>
 
+<details>
+  <summary>Házi Feladatok 01</summary>
+
+1. [Öt véletlen szám átlag](./java/hazi_feladatok_02/ot_veletlen_atlag.md)
+  
+</details
+
 ---
 
 - [Back](../../README.md)
