@@ -8,15 +8,13 @@
 
 # (ot_veletlen_atlag)
 
+> Hozz létre 5 darab véletlen számot 1-8 közötti intervallumban, 
+> majd írd ki a számok átlagát!
+
 > Main:
 
 ```java
 public static void main(String[] args) {
-
-	/**
-	 * Hozz létre 5 darab véletlen számot 1-8 közötti intervallumban, 
-	 * majd írd ki a számok átlagát!
-	 */
 
 	int rand_nums[] = new int[5];
 	Random r = new Random();
