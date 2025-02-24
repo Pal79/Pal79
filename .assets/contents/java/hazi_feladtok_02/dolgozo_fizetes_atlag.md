@@ -6,6 +6,8 @@
 
 ---
 
+# (dolgozo_fizetes_atlag)
+
 > Kérd be a dolgozó első féléves fizetését havonta 
 > (januártól - júniusig), majd írd ki az átlagfizetését, 
 > és hogy mennyit keresett összesen eddig!
