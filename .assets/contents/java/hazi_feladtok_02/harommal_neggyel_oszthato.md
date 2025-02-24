@@ -6,6 +6,8 @@
 
 ---
 
+# (harommal_neggyel_oszthato)
+
 > Kérj be a felhasználótól egész számokat mindaddig, 
 > amíg a megadott szám nem osztható 3-mal és 4-gyel maradék nélkül!
 
