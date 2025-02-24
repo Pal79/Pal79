@@ -6,6 +6,8 @@
 
 ---
 
+# (tomb_nyolc_elem)
+
 > Tölts fel egy 8 elemű tömböt a felhasználótól érkező adatokkal! 
 > Írd ki az adatokat egymás mellé!
 >
