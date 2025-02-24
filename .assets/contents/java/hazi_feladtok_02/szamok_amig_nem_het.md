@@ -6,6 +6,8 @@
 
 ---
 
+# (szamok_amig_nem_het)
+
 > Hozz létre véletlen számokat 1-10 között mindaddig amíg, 7-es nem lesz!
 
 > Main:
