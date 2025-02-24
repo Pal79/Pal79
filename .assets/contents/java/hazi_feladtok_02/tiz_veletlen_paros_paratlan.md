@@ -6,6 +6,8 @@
 
 ---
 
+# (tiz_veletlen_paros_paratlan)
+
 > Hozz létre 10 db véletlen számot [5, 30] közötti tartományban,
 > majd határozzuk meg, hogy az elemek összege páros vagy páratlan szám!
 
