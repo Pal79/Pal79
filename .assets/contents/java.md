@@ -62,6 +62,7 @@
 1. [hárommal és néggyel osztható](./java/hazi_feladtok_02/harommal_neggyel_oszthato.md)
 1. [nyolc elemű tömb](./java/hazi_feladtok_02/tomb_nyolc_elem.md)
 1. [20 véltelen elemű tömb](./java/hazi_feladtok_02/husz_veletlen_elemu_tomb.md)
+1. [karakterek tömb](./java/hazi_feladtok_02/karakterek_tomb.md)
 
 </details
 
