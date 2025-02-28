@@ -63,6 +63,7 @@
 1. [nyolc elemű tömb](./java/hazi_feladtok_02/tomb_nyolc_elem.md)
 1. [20 véltelen elemű tömb](./java/hazi_feladtok_02/husz_veletlen_elemu_tomb.md)
 1. [karakterek tömb](./java/hazi_feladtok_02/karakterek_tomb.md)
+1. [15 elemű tömb 20 és 60 között](./java/hazi_feladtok_02/tizenot_elemu_tomb_husz_es_hatvan_kozott.md)
 
 </details
 
