@@ -66,6 +66,7 @@
 1. [15 elemű tömb 20 és 60 között](./java/hazi_feladtok_02/tizenot_elemu_tomb_husz_es_hatvan_kozott.md)
 1. [8x8-as mátrix tömb](./java/hazi_feladtok_02/nyolc_x_nyolc_matrix_atlo.md)
 1. [6x6-os mátrix tömb](./java/hazi_feladtok_02/hatszor_hatos_matrix.md)
+1. [3x4-es mátrix tömb](./java/hazi_feladtok_02/haromszor_negyes_matrix.md)
 
 </details
 
