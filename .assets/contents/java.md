@@ -67,6 +67,7 @@
 1. [8x8-as mátrix tömb](./java/hazi_feladtok_02/nyolc_x_nyolc_matrix_atlo.md)
 1. [6x6-os mátrix tömb](./java/hazi_feladtok_02/hatszor_hatos_matrix.md)
 1. [3x4-es mátrix tömb](./java/hazi_feladtok_02/haromszor_negyes_matrix.md)
+1. [30 elemű tömb](./java/hazi_feladtok_02/harminc_elemu_tomb.md)
 
 </details
 
