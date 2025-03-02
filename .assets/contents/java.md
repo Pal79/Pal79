@@ -68,6 +68,7 @@
 1. [6x6-os mátrix tömb](./java/hazi_feladtok_02/hatszor_hatos_matrix.md)
 1. [3x4-es mátrix tömb](./java/hazi_feladtok_02/haromszor_negyes_matrix.md)
 1. [30 elemű tömb](./java/hazi_feladtok_02/harminc_elemu_tomb.md)
+1. [Sarki zöldséges](./java/hazi_feladtok_02/sarki_zoldseges.md)
 
 </details
 
