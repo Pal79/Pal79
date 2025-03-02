@@ -69,6 +69,7 @@
 1. [3x4-es mátrix tömb](./java/hazi_feladtok_02/haromszor_negyes_matrix.md)
 1. [30 elemű tömb](./java/hazi_feladtok_02/harminc_elemu_tomb.md)
 1. [Sarki zöldséges](./java/hazi_feladtok_02/sarki_zoldseges.md)
+1. [Lebegőpontos tömb](./java/hazi_feladtok_02/lebegopontos_tomb.md)
 
 </details
 
