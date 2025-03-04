@@ -3,6 +3,7 @@
 
 - [Fibonacci](./java/fibo.md)
 - [Cylinder](./java/cylinder.md)
+- [Percentage calculations](./java/percentage_calculations.md)
 
 ---
 
