@@ -72,6 +72,7 @@
 1. [Sarki zöldséges](./java/hazi_feladtok_02/sarki_zoldseges.md)
 1. [Lebegőpontos tömb](./java/hazi_feladtok_02/lebegopontos_tomb.md)
 1. [Tekegurítás](./java/hazi_feladtok_02/tekeguritas.md)
+1. [Színház](./java/hazi_feladtok_02/szinhaz.md)
 
 </details
 
