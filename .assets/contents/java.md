@@ -73,6 +73,7 @@
 1. [Lebegőpontos tömb](./java/hazi_feladtok_02/lebegopontos_tomb.md)
 1. [Tekegurítás](./java/hazi_feladtok_02/tekeguritas.md)
 1. [Színház](./java/hazi_feladtok_02/szinhaz.md)
+1. [Ötöslottó](./java/hazi_feladtok_02/otoslotto.md)
 
 </details
 
