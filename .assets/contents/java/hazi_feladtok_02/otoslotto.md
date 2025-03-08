@@ -57,6 +57,41 @@ public static void main(String[] args) {
 }
 ```
 
+> Melyik számot húzták a legtöbbször:
+
+```java
+// i. Melyik számot húzták ki a leggyakrabban? (emelt)
+private static void whichNumberMostOften(int[][] arr) {
+	System.out.println("i. feladat:");
+
+	int[] counts = new int[91];
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			counts[arr[i][j]]++;
+		}
+	}
+	/*
+	for(int i = 0; i < counts.length; i++) {
+		System.out.println(i + ". " + counts[i]);
+	}
+	*/
+	int max = counts[0];
+	for(int i = 0; i < counts.length; i++) {
+		if(counts[i] > max) {
+			max = counts[i];
+		}
+	}
+
+	System.out.print("A szám vagy számok, melyet legtöbbször húztak: ");
+	for(int i = 0; i < counts.length; i++) {
+		if(max == counts[i]) {
+			System.out.print(i + ". ");
+		}
+	}
+	System.out.println();
+}
+```
+
 > Melyik héten hány találat lett volna:
 
 ```java
