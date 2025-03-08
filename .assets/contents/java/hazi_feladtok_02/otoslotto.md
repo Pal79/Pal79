@@ -64,6 +64,37 @@ public static void main(String[] args) {
 //    hány találata lett volna! Az eredményben csak a 2 vagy több találatos heteket kell megjeleníteni!
 private static void howManyHitsWouldThereHaveBeen(int[][] arr) {
 	System.out.println("h. feladat:");
+
+	int[] nums = new int[5];
+
+	System.out.println("Kérlek adj meg öt egész számot (1-90):");
+
+	for(int i = 0; i < nums.length; i++) {
+		System.out.print((i+1) + ". szám: ");
+		try {
+			nums[i] = Integer.parseInt(br.readLine());
+		} catch (NumberFormatException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	System.out.println();
+
+	int count = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			for(int k = 0; k < nums.length; k++) {
+				if(nums[k] == arr[i][j]) {
+					count++;
+				}
+			}
+		}
+		if(count > 1) {
+			System.out.println((i+1) + ". héten " + count + " találata volt.");
+		}
+		count = 0;
+	}
 }
 ```
 
