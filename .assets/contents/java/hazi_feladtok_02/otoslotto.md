@@ -48,11 +48,42 @@ public static void main(String[] args) {
 		System.out.println();
 		howManyHitsWouldThereHaveBeen(matrix);
 		System.out.println();
+		whichNumberMostOften(matrix);
+		System.out.println();
+		whichWeeksConsecutiveNumbers(matrix);
+		System.out.println();
 
 		br.close();
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
+	}
+}
+```
+
+> Hetek ahol egymást követő számok voltak:
+
+```java
+// j. Melyek voltak azok a hetek, ahol volt egymást követő szám? (emelt)
+private static void whichWeeksConsecutiveNumbers(int[][] arr) {
+	System.out.println("j. feladat:");
+
+	List<String> weeks = new ArrayList<String>();
+
+	int identifies = arr[0][0];
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(identifies == arr[i][j]) {
+				if(i != 0) {
+					weeks.add(i + ".hét és " + (i+1) + ".hét");
+				}
+			}
+		}
+		identifies = arr[i][0];
+	}
+	for(int i = 0; i < weeks.size(); i++) {
+		System.out.println(weeks.get(i));
 	}
 }
 ```
