@@ -74,6 +74,7 @@
 1. [Tekegurítás](./java/hazi_feladtok_02/tekeguritas.md)
 1. [Színház](./java/hazi_feladtok_02/szinhaz.md)
 1. [Ötöslottó](./java/hazi_feladtok_02/otoslotto.md)
+1. [Ötöslottó](./java/hazi_feladtok_02/mozi.md)
 
 </details
 
