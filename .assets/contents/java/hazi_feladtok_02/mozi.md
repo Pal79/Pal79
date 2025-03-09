@@ -34,6 +34,38 @@ public static void main(String[] args) {
 
     arrWriteOut(places);
 	System.out.println();
+    income(places);
+	System.out.println();
+}
+```
+
+> eddigi bevételek:
+
+```java
+// b. Eddig hány forintért értékesítettek jegyeket?
+private static void income(int[][] arr) {
+	System.out.println("b. feladat:");
+
+	int child_and_retired_tickets_count = 0; // 1200
+	int adult_tickets_count = 0; // 1600
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(arr[i][j] == 1) {
+				child_and_retired_tickets_count++;
+			} else if(arr[i][j] == 2) {
+				adult_tickets_count++;
+		}
+		}
+	}
+
+	int child_and_retired_tickets_value = child_and_retired_tickets_count * 1200;
+	int adult_tickets_value = adult_tickets_count * 1600;
+
+	System.out.println("Az eddig eladott jegyek összege:");
+	System.out.println(" - Gyerek / nyugdíjas jegyek: " + child_and_retired_tickets_value + " forint");
+	System.out.println(" - Felnőtt jegyek: " + adult_tickets_value + " forint");
+	System.out.println(" - Összesen: " + (child_and_retired_tickets_value + adult_tickets_value) + " forint.");
 }
 ```
 
