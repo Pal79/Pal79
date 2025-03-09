@@ -30,7 +30,34 @@
 ```java
 public static void main(String[] args) {
 
-		int[][] places = arrUpload();
+	int[][] places = arrUpload();
+
+    arrWriteOut(places);
+	System.out.println();
+}
+```
+
+> tömbkiírás:
+
+```java
+// a. Írjuk ki a mátrix elemeit! Jelenítsük meg a sorok: 1-40 és a székek: 1-30 számát is 
+//    (csak fejlécként 1X szerepeljen)!
+private static void arrWriteOut(int[][] arr) {
+	for(int i = 0; i < 31; i++) {
+		if(i == 0) {
+			System.out.print("\t");
+		} else {
+			System.out.print(i + ". szék\t");
+		}
+	}
+	System.out.println();
+	for(int i = 0; i < arr.length; i++) {
+		System.out.print((i+1) + ". sor: ");
+		for(int j = 0; j < arr[i].length; j++) {
+			System.out.print(arr[i][j] + "\t");
+		}
+		System.out.println();
+	}
 }
 ```
 
