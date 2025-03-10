@@ -38,6 +38,38 @@ public static void main(String[] args) {
 	System.out.println();
 	howManyTicketsCantSoldOut(places);
 	System.out.println();
+	whatPercentageOfTicketsSoldChildRetiredAdult(places);
+	System.out.println();
+}
+```
+
+> az értékesített jegyek hány százaléka gyerek/felnőt vagy felnőtt:
+
+```java
+// d. Az értékesített jegyek hány százaléka gyerek-nyugdíjas, felnőtt jegy?
+private static void whatPercentageOfTicketsSoldChildRetiredAdult(int[][] arr) {
+	System.out.println("d.feladat:");
+
+	int child_retired_count = 0;
+	int adult_count = 0;
+	int all_count = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(arr[i][j] == 1) {
+				child_retired_count++;
+			} else if(arr[i][j] == 2) {
+				adult_count++;
+			}
+			all_count++;
+		}
+	}
+
+	double child_retired_percent = (double)child_retired_count / (double)all_count * 100;
+	double adult_percent = (double)adult_count / (double)all_count * 100;
+
+	System.out.println("Az értékesített jegyek " + child_retired_percent + "%-a gyerek/nyugdíjas.");
+	System.out.println("Az értékesített jegyek " + adult_percent + "%-a felnőtt.");
 }
 ```
 
