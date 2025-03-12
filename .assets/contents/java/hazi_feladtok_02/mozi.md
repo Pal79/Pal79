@@ -40,6 +40,79 @@ public static void main(String[] args) {
 	System.out.println();
 	whatPercentageOfTicketsSoldChildRetiredAdult(places);
 	System.out.println();
+	isTheSeatTaken(places);
+	System.out.println();
+}
+```
+
+> helyfoglalás, ha foglalt, akkor nem:
+
+```java
+// e. Kérjünk be egy sorszámot és székszámot a felhasználótól, majd ellenőrizzük, hogy foglalt –
+//    e az adott hely! Amennyiben üres volt, hajtsuk végre a foglalást, amelyhez kérjük be a jegy
+//    kategóriáját is (1 es vagy 2-es)!
+private static void isTheSeatTaken(int[][] arr) {
+	System.out.println("e. feladat:");
+
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	System.out.println("Adjon meg egy sorszámot és egy székszámot:");
+	try {
+		System.out.print(" - sorszám (1-40): ");
+		int row = Integer.parseInt(br.readLine());
+		System.out.print(" - székszám (1-30): ");
+		int seat = Integer.parseInt(br.readLine());
+
+		boolean is_taken = true;
+
+		if(arr[row-1][seat-1] == 0) {
+			is_taken = false;
+		}
+
+		if(is_taken) {
+			System.out.println("A hely már foglalt.");
+		} else {
+			System.out.println("A hely jelenleg nem foglalt.");
+			System.out.println("Ha szeretné lefoglalni, akkor kérem válasszon:");
+			System.out.println("Milyen típusú jegyet szeretne?");
+			System.out.println(" - Diák vagy nyugdíjas jegyet szeretne? Nyomja meg az 1-es gombot");
+			System.out.println(" - Felnőtt jegyet szeretne? Nyomja meg a 2-es gombot");
+			System.out.println(" - Esetleg mégsem foglalna? Nyomja meg a 0-ás gombot.");
+			int ticket_type = Integer.parseInt(br.readLine());
+
+			if(ticket_type == 1) {
+				arr[row-1][seat-1] = ticket_type;
+				System.out.println("A " + row + ". sorban a " + seat + ". szék lefoglalva.");
+			} else if(ticket_type == 2) {
+				arr[row-1][seat-1] = ticket_type;
+				System.out.println("A " + row + ". sorban a " + seat + ". szék lefoglalva.");
+			} else {
+				System.out.println("A jegy vásárlás törölve.");
+			}
+			/*
+			for(int i = 0; i < 31; i++) {
+				if(i == 0) {
+					System.out.print("\t");
+				} else {
+					System.out.print(i + ".\t");
+				}
+			}
+			System.out.println("\n");
+
+			for(int i = 0; i < arr.length; i++) {
+				System.out.print((i+1) + ".\t");
+				for(int j = 0; j < arr[i].length; j++) {
+					System.out.print(arr[i][j] + "\t");
+				}
+				System.out.println();
+			}
+			*/
+		}
+	} catch (NumberFormatException | IOException e) {
+		// TODO Auto-generated catch block
+		// e.printStackTrace();
+		System.out.println("Hibás adatbevitel!\nCsak egész számok adhatóak meg a megadott intervallumokban.");
+	}
 }
 ```
 
@@ -129,16 +202,17 @@ private static void income(int[][] arr) {
 // a. Írjuk ki a mátrix elemeit! Jelenítsük meg a sorok: 1-40 és a székek: 1-30 számát is 
 //    (csak fejlécként 1X szerepeljen)!
 private static void arrWriteOut(int[][] arr) {
+	System.out.println("a. feladat:");
 	for(int i = 0; i < 31; i++) {
 		if(i == 0) {
 			System.out.print("\t");
 		} else {
-			System.out.print(i + ". szék\t");
+			System.out.print(i + ".\t");
 		}
 	}
-	System.out.println();
+	System.out.println("\n");
 	for(int i = 0; i < arr.length; i++) {
-		System.out.print((i+1) + ". sor: ");
+		System.out.print((i+1) + ".\t");
 		for(int j = 0; j < arr[i].length; j++) {
 			System.out.print(arr[i][j] + "\t");
 		}
