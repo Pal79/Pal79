@@ -42,6 +42,26 @@ public static void main(String[] args) {
 	System.out.println();
 	isTheSeatTaken(places);
 	System.out.println();
+	whichPlacesEmptyInEighthRow(places);
+	System.out.println();
+}
+```
+
+> a 8. sorban melyik szék(ek) üres(ek)
+
+```java
+// f. A 8-as sorban melyik helyek üresek még? Írjuk ki a székek sorszámát egymás mellé
+//    szóközzel elválasztva!
+private static void whichPlacesEmptyInEighthRow(int[][] arr) {
+	System.out.println("f. feladat:");
+
+	System.out.println("Helyek amelyek üresen maradtak a 8.sorban:");
+	for(int i = 0; i < 30; i++) {
+		if(arr[7][i] == 0) {
+			System.out.print((i+1) + ". ");
+		}
+	}
+	System.out.println();
 }
 ```
 
