@@ -44,6 +44,35 @@ public static void main(String[] args) {
 	System.out.println();
 	whichPlacesEmptyInEighthRow(places);
 	System.out.println();
+	System.out.println(howManyEmptySeatsInFirstAndTwiceRowAndBeforeLastAndLastRow(places));
+	System.out.println();
+}
+```
+
+> első kettő és utolsó kettő sorban az üresen maradt székek száma:
+
+```java
+// g. Hány üres hely maradt a nézőtér első kettő és utolsó kettő sorában?
+private static int howManyEmptySeatsInFirstAndTwiceRowAndBeforeLastAndLastRow(int[][] arr) {
+	System.out.println("g. feladat:");
+
+	int empty_seats = 0;
+	int row_1 = emptySeatsCount(arr, 0, empty_seats);
+	int row_2 = emptySeatsCount(arr, 1, empty_seats);
+	int row_39 = emptySeatsCount(arr, 38, empty_seats);
+	int row_40 = emptySeatsCount(arr, 39, empty_seats);
+
+	System.out.print("Az első kettő és az utolsó két sorban üresen maradt helyek száma: ");
+
+	return row_1 + row_2 + row_39 + row_40;
+}
+private static int emptySeatsCount(int[][] arr, int row, int empty_seats) {
+	for(int i = 0; i < 30; i++) {
+		if(arr[row][i] == 0) {
+			empty_seats++;
+		}
+	}
+	return empty_seats;
 }
 ```
 
