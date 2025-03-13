@@ -46,6 +46,38 @@ public static void main(String[] args) {
 	System.out.println();
 	System.out.println(howManyEmptySeatsInFirstAndTwiceRowAndBeforeLastAndLastRow(places));
 	System.out.println();
+	whichRowMoreAdultTicketsSoldOut(places);
+	System.out.println();
+}
+```
+
+> sorok ahol több felnőtt jegyet adtak el:
+
+```java
+// h. Melyik sorokban adtak el több felnőttjegyet, mint gyerek, nyugdíjas jegyet (egymás mellé
+//    szóközzel elválasztva írjuk ki a sorszámokat)?
+private static void whichRowMoreAdultTicketsSoldOut(int[][] arr) {
+	System.out.println("h. feladat:");
+
+	int child_retired_count = 0;
+	int adult_count = 0;
+
+	System.out.print("Sorok, ahol több felnőttjegyet adtak el, mint gyerek/nyugdíjas jegyet: ");
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(arr[i][j] == 1) {
+				child_retired_count++;
+			} else if(arr[i][j] == 2) {
+				adult_count++;
+			}
+		}
+		if(child_retired_count < adult_count) {
+			System.out.print((i+1) + ". ");
+		}
+		child_retired_count = 0;
+		adult_count = 0;
+	}
+	System.out.println();
 }
 ```
 
