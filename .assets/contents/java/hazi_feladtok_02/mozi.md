@@ -48,6 +48,50 @@ public static void main(String[] args) {
 	System.out.println();
 	whichRowMoreAdultTicketsSoldOut(places);
 	System.out.println();
+	moreRevenueCameFromTheFirstOrSecondTwentyRowsOfTheAuditorium(places);
+	System.out.println();
+}
+```
+
+> első vagy második húsz sor bevétele volt több:
+
+```java
+// i. A nézőtér első vagy második 20 sorában eladott jegyekből jön a több bevétel? A válaszban
+//    jelenítsük meg a számított értékeket is!
+private static void moreRevenueCameFromTheFirstOrSecondTwentyRowsOfTheAuditorium(int[][] arr) {
+	System.out.println("i. feladat:");
+
+	int first_twenty_rows_income = incomeCount(arr, 0, 19);
+	int second_twenty_rows_income = incomeCount(arr, 20, 39);
+
+	if(first_twenty_rows_income > second_twenty_rows_income) {
+		System.out.println("Az első húsz sorban volt több bevétel.");
+		System.out.println(" - Első húsz sor bevétele: " + first_twenty_rows_income + " forint");
+		System.out.println(" - Második húsz sor bevétele: " + second_twenty_rows_income + " forint");
+	} else if(first_twenty_rows_income < second_twenty_rows_income) {
+		System.out.println("A második húsz sorban volt több bevétel.");
+		System.out.println(" - Első húsz sor bevétele: " + first_twenty_rows_income + " forint");
+		System.out.println(" - Második húsz sor bevétele: " + second_twenty_rows_income + " forint");
+	} else {
+		System.out.println("Az első és második húsz sorban egyenlő volt a bevétel.");
+		System.out.println(" - Első húsz sor bevétele: " + first_twenty_rows_income + " forint");
+		System.out.println(" - Második húsz sor bevétele: " + second_twenty_rows_income + " forint");
+	}
+}
+
+private static int incomeCount(int[][] arr, int start, int end) {
+	int result = 0;
+	// 1600 - 1200
+	for(int i = start; i < end; i ++) {
+		for(int j = 0; j < 30; j++) {
+			if(arr[i][j] == 2) {
+				result += 1600;
+			} else if(arr[i][j] == 1) {
+				result += 1200;
+			}
+		}
+	}		
+	return result;
 }
 ```
 
