@@ -89,24 +89,7 @@ private static void isTheSeatTaken(int[][] arr) {
 			} else {
 				System.out.println("A jegy vásárlás törölve.");
 			}
-			/*
-			for(int i = 0; i < 31; i++) {
-				if(i == 0) {
-					System.out.print("\t");
-				} else {
-					System.out.print(i + ".\t");
-				}
-			}
-			System.out.println("\n");
-
-			for(int i = 0; i < arr.length; i++) {
-				System.out.print((i+1) + ".\t");
-				for(int j = 0; j < arr[i].length; j++) {
-					System.out.print(arr[i][j] + "\t");
-				}
-				System.out.println();
-			}
-			*/
+			//arrWriteOut(arr);
 		}
 	} catch (NumberFormatException | IOException e) {
 		// TODO Auto-generated catch block
