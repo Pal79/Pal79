@@ -12,6 +12,7 @@
 - [Prime Numbers](./python/prime-numbers.md)
 - [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
 - [Blog project](./python/blog_project.md)
+- [Coffe and wifi - wtf](./python/coffe_and_wifi_WTF.md)
 
 ---
 
