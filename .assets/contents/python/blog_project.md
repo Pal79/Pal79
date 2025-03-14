@@ -25,7 +25,7 @@
 &nbsp;&nbsp;&nbsp;
 <img src="./blog_project/static/assets/img/post-sample-image.jpg" width=50>
 
-> ./css/styles.css
+> ./css/styles.css (BootStrap)
 
 ```css
 @charset "UTF-8";
@@ -10828,7 +10828,7 @@ header.masthead .post-heading .meta a {
 }
 ```
 
-> ./js/scripts.js
+> ./js/scripts.js (BootStrap)
 
 ```js
 /*!
@@ -10865,7 +10865,7 @@ window.addEventListener('DOMContentLoaded', () => {
 </details>
 
 <details>
-    <summary>templates</summary>
+    <summary>./templates</summary>
 
 > about.html
 
