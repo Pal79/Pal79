@@ -11,6 +11,8 @@ I used to learn only as a hobby, but now I want to try and improve my knowledge.
 
 I'm currently studying at the: Szent László High School
 
+### Languages and Tools:
+
 ---
 
 - [Java](.assets/contents/java.md)
