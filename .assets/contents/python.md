@@ -10,6 +10,7 @@
 - [Heads or Tails](./python/heads-or-tails.md)
 - [FizzBuzz](./python/fizzbuzz.md)
 - [Prime Numbers](./python/prime-numbers.md)
+- [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
 
 ---
 
