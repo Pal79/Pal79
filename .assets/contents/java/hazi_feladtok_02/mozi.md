@@ -50,6 +50,35 @@ public static void main(String[] args) {
 	System.out.println();
 	moreRevenueCameFromTheFirstOrSecondTwentyRowsOfTheAuditorium(places);
 	System.out.println();
+	howManyPercentSoldOutInRows(places);
+	System.out.println();
+}
+```
+
+> soronként hány százalékát értékesítették a jegyeknek (összes, gyerek/nyugdíjas, felnőtt):
+
+```java
+// j. Készíts statisztikát: soronként hány százalékát adták el a jegyeknek és abból hány százalék
+//    volt felnőtt illetve gyerek, nyugdíjas jegy? (emelt)
+private static void howManyPercentSoldOutInRows(int[][] arr) {
+	System.out.println("j. feladat:");
+
+	for(int i = 0; i < arr.length; i++) {
+		int retired_child_count = 0;
+		int adult_count = 0;
+		int result = 0;
+		for(int j = 0; j < arr[i].length; j++) {
+			if(arr[i][j] == 1) {
+				retired_child_count++;
+			} else if(arr[i][j] == 2) {
+				adult_count++;
+			}
+		}
+		System.out.println("Az eladott jegyek százalékosan a(z) " + (i+1) + ". sorban:");
+		System.out.println(" - összes: " + (double)(retired_child_count + adult_count) / (double)30 *100 + "%");
+		System.out.println(" - gyerek/nyugdíjas: " + (double)retired_child_count / (double)30 * 100 + "%");
+		System.out.println(" - felnőtt: " + (double)adult_count / (double)30 * 100 + "%");
+	}
 }
 ```
 
