@@ -15,7 +15,7 @@ I'm currently studying at the: Szent László High School
 
 ---
 
-- [Java](.assets/contents/java.md)
+- [<img src="./assets/images/Duke.png" width=60>](.assets/contents/java.md)
 - [python](.assets/contents/python.md)
 
 ---
