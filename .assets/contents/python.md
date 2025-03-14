@@ -11,6 +11,7 @@
 - [FizzBuzz](./python/fizzbuzz.md)
 - [Prime Numbers](./python/prime-numbers.md)
 - [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
+- [Blog project](./python/blog_project.md)
 
 ---
 
