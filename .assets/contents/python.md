@@ -13,6 +13,7 @@
 - [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
 - [Blog project](./python/blog_project.md)
 - [Coffe and wifi - wtf](./python/coffe_and_wifi_WTF.md)
+- [Flask wtf project](./python/flask_wtf_project.md)
 
 ---
 
