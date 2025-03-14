@@ -10,13 +10,14 @@
 - [Heads or Tails](./python/heads-or-tails.md)
 - [FizzBuzz](./python/fizzbuzz.md)
 - [Prime Numbers](./python/prime-numbers.md)
-- [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
-- [Blog project](./python/blog_project.md)
-- [Coffe and wifi - wtf](./python/coffe_and_wifi_WTF.md)
-- [Flask wtf project](./python/flask_wtf_project.md)
-- [Guess nuber](./python/guess_number.md)
 - [Higher Lower](./python/higher_lower.md)
+- [Guess number](./python/guess_number.md)
+- [Birthday wishers - SMTP](./python/birthday-wishers-SMTP.md)
+- [Coffe and wifi - wtf](./python/coffe_and_wifi_WTF.md)
 - [Html forms](./python/html_forms.md)
+- [Flask wtf project](./python/flask_wtf_project.md)
+- [Blog project](./python/blog_project.md)
+- [Library Project](./python/library_project.md)
 
 ---
 
