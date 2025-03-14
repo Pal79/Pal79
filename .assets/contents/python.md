@@ -16,6 +16,7 @@
 - [Flask wtf project](./python/flask_wtf_project.md)
 - [Guess nuber](./python/guess_number.md)
 - [Higher Lower](./python/higher_lower.md)
+- [Html forms](./python/html_forms.md)
 
 ---
 
