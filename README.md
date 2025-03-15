@@ -1,12 +1,6 @@
 
 <!--img src='.assets/images/IMG_20241017_084724.jpg' width='128' alt='profile image' style='border-radius:50%;display:block;margin-left:auto;margin-right:auto'-->
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 ---
 
  Hello, I'm Daniel. I'm hungarian fornt and backend developer.
