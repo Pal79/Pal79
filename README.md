@@ -15,7 +15,7 @@ I'm currently studying at the: Szent László High School
 
 ---
 
-<table style="border:none;">
+<table style="border:none!important;">
     <tr>
         <th colspan=3 style="text-align:center;">Links</th>
     </tr>
