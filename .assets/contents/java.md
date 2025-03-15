@@ -1,6 +1,14 @@
 
 ---
 
+- [Back to the first page](../../README.md)
+
+---
+
+# Java
+
+---
+
 - [Fibonacci](./java/fibo.md)
 - [Cylinder](./java/cylinder.md)
 - [Percentage calculations](./java/percentage_calculations.md)
@@ -79,7 +87,8 @@
 </details
 
 ---
+---
 
-- [Back](../../README.md)
+- [Back to the first page](../../README.md)
 
 ---
