@@ -17,7 +17,7 @@ I'm currently studying at the: Szent László High School
 
 <table style="border:none!important;">
     <tr>
-        <th colspan=3 style="text-align:center;">Links</th>
+        <th colspan=4 style="text-align:center;">Links</th>
     </tr>
     <tr>
         <td>
@@ -28,6 +28,9 @@ I'm currently studying at the: Szent László High School
         </td>
         <td>
             <a href=".assets/contents/linux.md"><img src=".assets/images/linux.png" width=135></a>
+        </td>
+        <td>
+            <a href=".assets/contents/raspberry-pi.md"><img src=".assets/images/raspberry_pi_logo.png" width=90>
         </td>
     </tr>
 </table>
