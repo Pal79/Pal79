@@ -15,9 +15,22 @@ I'm currently studying at the: Szent László High School
 
 ---
 
-| Links |  |  |
-| :-- | :-- | :-- |
-| [<img src=".assets/images/Duke.png" width="60">](.assets/contents/java.md) | [<img src=".assets/images/python.png" width=135>](.assets/contents/python.md) | [<img src=".assets/images/linux.png" width=135>](.assets/contents/linux.md) |
+<table style="border:none;">
+    <tr>
+        <th colspan=3 style="text-align:center;">Links</th>
+    </tr>
+    <tr>
+        <td>
+            <a href=".assets/contents/java.md"><img src=".assets/images/Duke.png" width="60">
+        </td>
+        <td>
+            <a href=".assets/contents/python.md"><img src=".assets/images/python.png" width=135></a>
+        </td>
+        <td>
+            <a href=".assets/contents/linux.md"><img src=".assets/images/linux.png" width=135></a>
+        </td>
+    </tr>
+</table>
 
 ---
 
