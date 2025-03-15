@@ -18,6 +18,8 @@ I'm currently studying at the: Szent László High School
 [<img src=".assets/images/Duke.png" width="60">](.assets/contents/java.md)
 &nbsp;&nbsp;&nbsp;
 [<img src=".assets/images/python.png" width=135>](.assets/contents/python.md)
+&nbsp;&nbsp;&nbsp;
+[<img src=".assets/images/linux.png" width=135>](.assets/contents/linux.md)
 
 ---
 
