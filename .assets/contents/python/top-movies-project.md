@@ -396,9 +396,9 @@ werkzeug==2.3.7
 }
 ```
 
-> ./instance/ [movies.db](./top_movies_project/movies.db)
-
 </details>
+
+> ./instance/ [movies.db](./top_movies_project/movies.db)
 
 > ./main.py
 
