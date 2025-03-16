@@ -42,25 +42,10 @@ I'm currently studying at the: Szent László High School
 
 ---
 
-<table align="center">
-    <tr>
-        <td>
-            <img src=".assets/images/IT.png" width="100">
-        </td>
-        <td>
-            <img src=".assets/images/javaAlap.png" width="100">
-        </td>
-        <td>
-            <img src=".assets/images/javaSE.png" width="100">
-        </td>
-        <td>
-            <img src=".assets/images/javaEE.png" width="100">
-        </td>
-        <td>
-            <img src=".assets/images/javaNetSql.png" width="100">
-        </td>
-    </tr>
-</table>
+|  |  |  |  |  |
+| :-- | :-- | :-- | :-- | :-- |
+| <img src=".assets/images/IT.png" width=150> | <img src=".assets/images/javaAlap.png" width=150> | <img src=".assets/images/javaSE.png" width=150> | <img src=".assets/images/javaEE.png" width=150> | <img src=".assets/images/javaNetSql.png" width=150> |
+| <img src=".assets/images/Pál Dániel-1.png" width=150> |  |  |  |  |
 
 ---
 
