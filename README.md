@@ -36,6 +36,19 @@ I'm currently studying at the: Szent László High School
 </table>
 
 ---
+---
+
+### My Diplomas
+
+---
+
+<img src=".assets/images/IT.png" width="100">&nbsp;&nbsp;&nbsp;
+<img src=".assets/images/javaAlap.png" width="100">&nbsp;&nbsp;&nbsp;
+<img src=".assets/images/javaSE.png" width="100">&nbsp;&nbsp;&nbsp;
+<img src=".assets/images/javaEE.png" width="100">&nbsp;&nbsp;&nbsp;
+<img src=".assets/images/javaNetSql.png" width="100">
+
+---
 
 - 📧 pal.daniel.79@gmail.com
 
