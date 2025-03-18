@@ -28,6 +28,28 @@ public static void main(String[] args) {
 	System.out.println();
 	howManyTheMonthlyIncomeAndMonthlyAverageIncome(incomes);
 	System.out.println();
+	weeklyIncomeAndWeeklyAverageIncome(incomes);
+	System.out.println();
+}
+```
+
+> heti átlag és teljes bevétel:
+
+```java
+// c) Mennyi volt az egyes hetek átlag- és összbevétele?
+private static void weeklyIncomeAndWeeklyAverageIncome(int[][] arr) {
+	System.out.println("c. feladat:");
+
+	for(int i = 0; i < arr.length; i++) {
+		int weekly_income = 0;
+		int count = 0;
+		for(int j = 0; j < arr[i].length; j++) {
+			weekly_income += arr[i][j];
+			count++;
+		}
+		System.out.println((i+1) + ". hét átlag bevétele: " + (weekly_income / count));
+		System.out.println((i+1) + ". hét teljes bevétele: " + weekly_income);
+	}
 }
 ```
 
