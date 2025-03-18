@@ -26,6 +26,29 @@ public static void main(String[] args) {
 
 	arrWriteOut(incomes);
 	System.out.println();
+	howManyTheMonthlyIncomeAndMonthlyAverageIncome(incomes);
+	System.out.println();
+}
+```
+
+> teljes havi bevétel és átlag:
+
+```java
+// b) Mennyi volt a teljes havi átlag- és összbevétel?
+private static void howManyTheMonthlyIncomeAndMonthlyAverageIncome(int[][] arr) {
+	System.out.println("b. feladat:");
+
+	int all_income = 0;
+	int count = 0;
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			count++;
+			all_income += arr[i][j];
+		}
+	}
+	System.out.println("A teljes havi bevétel: " + all_income + " forint volt.");
+	System.out.println("Az átlag bevétel: " + (all_income / count) + " forint volt.");
 }
 ```
 
