@@ -52,6 +52,30 @@ public static void main(String[] args) {
 	System.out.println();
 	howManyPercentSoldOutInRows(places);
 	System.out.println();
+	whichRowIsThreeEmptySeatsNextToEachOther(places);
+	System.out.println();
+}
+```
+
+> melyik sorban van 3 egymás melleti üres szék:
+
+```java
+// k. Melyik sorban van 3 egymás melletti üres hely? (emelt)
+private static void whichRowIsThreeEmptySeatsNextToEachOther(int[][] arr) {
+	System.out.println("k. feladat:");
+
+	boolean find = true;
+
+	System.out.println("Sorok száma, ahol legalább 3 egymás melletti üres szék van: ");
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(find == true && j < 18 && arr[i][j] == 0 && arr[i][j+1] == 0 && arr[i][j+2] == 0) {
+				System.out.print(i+1 + ". ");
+				find = false;
+			}
+		}
+		find = true;
+	}
 }
 ```
 
