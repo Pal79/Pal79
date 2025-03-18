@@ -30,6 +30,28 @@ public static void main(String[] args) {
 	System.out.println();
 	weeklyIncomeAndWeeklyAverageIncome(incomes);
 	System.out.println();
+	howManyIncomeSecondWeekDifferentWeekdaysAndWeekend(incomes);
+	System.out.println();
+}
+```
+
+> különbség a hétköznapi és hétvégi bevétel között a 2. héten:
+
+```java
+// d) Mennyi volt a második héten a különbség a hétköznapi és a hétvégi bevétel között?
+private static void howManyIncomeSecondWeekDifferentWeekdaysAndWeekend(int[][] arr) {
+	System.out.println("d. feladat:");
+
+	int weekdays_income = 0;
+	for(int i = 0; i < 5; i++) {
+		weekdays_income += arr[1][i];
+	}
+	int weekend_income = 0;
+	System.out.println();
+	for(int i = 5; i < 7; i++) {
+		weekend_income += arr[1][i];
+	}
+	System.out.println("A 2. hét hétköznapi és hétvégi bevételének a különbsége: " + (weekdays_income - weekend_income + " forint."));
 }
 ```
 
