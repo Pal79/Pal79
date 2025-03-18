@@ -83,6 +83,7 @@
 1. [Színház](./java/hazi_feladtok_02/szinhaz.md)
 1. [Ötöslottó](./java/hazi_feladtok_02/otoslotto.md)
 1. [Mozi](./java/hazi_feladtok_02/mozi.md)
+1. [Bolt](./java/hazi_feladtok_02/bolt.md)
 
 </details
 
