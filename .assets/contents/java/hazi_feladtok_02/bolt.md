@@ -1,0 +1,75 @@
+
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
+
+> Készítsünk alkalmazást, amely egy bolt négy heti bevételeit tükrözi napokra lebontva. 
+> Töltsünk fel egy megfelelő méretű mátrixot véletlenszerűen 200.000 Ft. és 300.000 Ft. közti értékekkel.
+> a. Írjuk ki a mátrix elemeit táblázatba rendezve! A sorok elé írjuk ki a hét sorszámát, illetve az oszlopok fölé az adott nap sorszámát!
+> b. Mennyi volt a teljes havi átlag- és összbevétel?
+> c. Mennyi volt az egyes hetek átlag- és összbevétele?
+> d. Mennyi volt a második héten a különbség a hétköznapi és a hétvégi bevétel között?
+> e. Melyik héten keletkezett a legnagyobb bevétel?
+> f. Melyik hét melyik napján keletkezett a legnagyobb bevétel? A nap nevét szövegesen írd ki!
+> g. Az első kettő vagy a második kettő héten keletkezett több bevétel?
+> h. Kérjünk be a felhasználótól egy összeget és írd ki, hogy mely hetek mely napjain keletkezett a bekért összegnél kisebb bevétel!
+
+> Main:
+
+```java
+public static void main(String[] args) {
+
+	int[][] incomes = arrUpload();
+
+	arrWriteOut(incomes);
+	System.out.println();
+}
+```
+
+> tömb kiíratása:
+
+```java
+// a. Írjuk ki a mátrix elemeit táblázatba rendezve! 
+// A sorok elé írjuk ki a hét sorszámát, illetve az oszlopok fölé az adott nap sorszámát!
+private static void arrWriteOut(int[][] arr) {
+	System.out.println("a. feladat:");
+
+	System.out.print("\t");
+	for(int i = 0; i < 7; i++) {
+		System.out.print((i+1) + ".\t");
+	}
+	System.out.println();
+
+	for(int i = 0; i < arr.length; i++) {
+		System.out.print((i+1) + ". hét ");
+		for(int j = 0; j < arr[i].length; j++) {
+			System.out.print(arr[i][j] + "\t");
+		}
+		System.out.println();
+	}
+}
+```
+
+> tömbfeltöltés:
+
+```java
+private static int[][] arrUpload() {
+	int[][] incomes = new int[4][7];
+	Random r = new Random();
+
+	for(int i = 0; i < incomes.length; i++) {
+		for(int j = 0; j < incomes[i].length; j++) {
+			incomes[i][j] = r.nextInt(300000 - 200000 + 1) + 200000;
+		}
+	}	
+	return incomes;
+}
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
