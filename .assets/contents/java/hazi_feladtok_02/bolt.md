@@ -34,6 +34,29 @@ public static void main(String[] args) {
 	System.out.println();
 	whichWeekIsBiggerIncome(incomes);
 	System.out.println();
+	whichWeekWhichDayWasBiggerIncome(incomes);
+	System.out.println();
+}
+```
+
+> melyik hét melyik napján volt több bevétel:
+
+```java
+// f) Melyik hét melyik napján keletkezett a legnagyobb bevétel? A nap nevét szövegesen írd ki!
+private static void whichWeekWhichDayWasBiggerIncome(int[][] arr) {
+	System.out.println("f. feladat:");
+
+	int day = 0;
+	for(int i = 0; i < arr.length; i++) {
+		int income = 0;
+		for(int j = 0; j < arr[i].length; j++) {
+			if(income < arr[i][j]) {
+				income = arr[i][j];
+				day = j+1;
+			}
+		}
+		System.out.println((i+1) + ". héten a(z) " + day + ". napon volt több bevétel: " + income + " forint.");
+	}
 }
 ```
 
