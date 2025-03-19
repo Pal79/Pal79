@@ -32,6 +32,31 @@ public static void main(String[] args) {
 	System.out.println();
 	howManyIncomeSecondWeekDifferentWeekdaysAndWeekend(incomes);
 	System.out.println();
+	whichWeekIsBiggerIncome(incomes);
+	System.out.println();
+}
+```
+
+> melyik héten volt a legtöbb bevétel:
+
+```java
+// e) Melyik héten keletkezett a legnagyobb bevétel?
+private static void whichWeekIsBiggerIncome(int[][] arr) {
+	System.out.println("e. feladat:");
+
+	int result = 0;
+	int week = 0;
+	for(int i = 0; i < arr.length; i++) {
+		int weekly_income = 0;
+		for(int j = 0; j < arr[i].length; j++) {
+			weekly_income += arr[i][j];
+		}
+		if(weekly_income > result) {
+			result = weekly_income;
+			week = i+1;
+		}
+	}
+	System.out.println("A(z) " + week + ". héten volt a legtöbb bevétel.\nÖsszesen: " + result + " forint");
 }
 ```
 
