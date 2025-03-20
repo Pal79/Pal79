@@ -36,6 +36,84 @@ public static void main(String[] args) {
 	System.out.println();
 	whichWeekWhichDayWasBiggerIncome(incomes);
 	System.out.println();
+	firstTwoOrLasttwoWeeksHaveABiggerIncome(incomes);
+	System.out.println();
+	whichWeeksWasLowerIncome(incomes);
+	System.out.println();
+}
+```
+
+> felhasználó bekért összegénél melyik hét melyik napján volt kevesebb bevétel:
+
+```java
+// h) Kérjünk be a felhasználótól egy összeget és írd ki, 
+//    hogy mely hetek mely napjain keletkezett a bekért összegnél kisebb bevétel!
+private static void whichWeeksWasLowerIncome(int[][] arr) {
+	System.out.println("h. feladat:");
+
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	try {
+		System.out.print("Adj meg egy összeget (egész szám) 200000 és 300000 között: ");
+		int input = Integer.parseInt(br.readLine());
+
+		for(int i = 0; i < arr.length; i++) {
+			System.out.println((i+1) + ". héten: ");
+			for(int j = 0; j < arr[i].length; j++) {
+				if(arr[i][j] < input) {
+					System.out.print((j+1) + ". napon: " + arr[i][j] + " forint; ");
+				}
+			}
+			System.out.println("\n");
+		}
+	} catch (NumberFormatException | IOException e) {
+		// TODO Auto-generated catch block
+		//e.printStackTrace();
+		System.out.println("Hibás adatbevitel!\nCsak egész számokat adhatsz meg!");
+	}
+}
+```
+
+> első kettő vagy második kettő héten volt több bevétel:
+
+```java
+// g) Az első kettő vagy a második kettő héten keletkezett több bevétel?
+private static void firstTwoOrLasttwoWeeksHaveABiggerIncome(int[][] arr) {
+	System.out.println("g. feladat:");
+
+	int[] incomes = new int[4];
+
+	for(int i = 0; i < arr.length; i++) {
+		int weekly_income = 0;
+		for(int j = 0; j < arr[i].length; j++) {
+			weekly_income += arr[i][j];
+		}
+		incomes[i] = weekly_income;
+	}
+
+	int first_two_weeks_income = 0;
+	for(int i = 0; i < 2; i++) {
+		first_two_weeks_income += incomes[i];
+	}
+
+	int last_two_weeks_income = 0;
+	for(int i = 2; i < 4; i++ ) {
+		last_two_weeks_income += incomes[i];
+	}
+
+	if(first_two_weeks_income > last_two_weeks_income) {
+		System.out.println("Az első két héten volt több bevétel:");
+		System.out.println(" - 1.-2. hét: " + first_two_weeks_income + " forint.");
+		System.out.println(" - 3.-4. hét: " + last_two_weeks_income + " forint.");
+	} else if(first_two_weeks_income < last_two_weeks_income) {
+		System.out.println("Az második két héten volt több bevétel:");
+		System.out.println(" - 1.-2. hét: " + first_two_weeks_income + " forint.");
+		System.out.println(" - 3.-4. hét: " + last_two_weeks_income + " forint.");
+	} else {
+		System.out.println("Mindkét héten egyenlő volt a bevétel:");
+		System.out.println(" - 1.-2. hét: " + first_two_weeks_income + " forint.");
+		System.out.println(" - 3.-4. hét: " + last_two_weeks_income + " forint.");
+	}
 }
 ```
 
