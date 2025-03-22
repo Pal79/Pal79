@@ -104,6 +104,7 @@
 1. [Tömb intervallum kiír](./java/hazi_feladatok_03/tomb_intervallum_kiir.md)
 1. [Tömb intervallum kiír 2](./java/hazi_feladatok_03/tomb_intervallum_kii2.md)
 1. [Két véletlen eldöntés metódus](./java/hazi_feladatok_03/ket_vel_eldontes_metodus.md)
+1. [Kő, papír, olló](./java/hazi_feladatok_03/ko_papir_ollo.md)
 
 ---
 
