@@ -18,6 +18,8 @@
 <details>
   <summary>Házi Feladatok 01</summary>
 
+---
+
 1. [Pitagorasz](./java/hazi_feladatok_01/pitagorasz.md)
 1. [Üzemanyag](./java/hazi_feladatok_01/uzemanyag.md)
 1. [Téglalap terület kerület](./java/hazi_feladatok_01/teglalap_ter_ker.md)
@@ -59,10 +61,14 @@
 1. [Sípálya](./java/hazi_feladatok_01/sipalya.md)
 1. [Körkúp - még nincs kész!](./java/hazi_feladatok_01/korkup.md)
 
+---
+
 </details>
 
 <details>
   <summary>Házi Feladatok 02</summary>
+
+---
 
 1. [Öt véletlen szám átlag](./java/hazi_feladtok_02/ot_veletlen_atlag.md)
 1. [Tíz véletlen páros páratlan](./java/hazi_feladtok_02/tiz_veletlen_paros_paratlan.md)
@@ -85,7 +91,20 @@
 1. [Mozi](./java/hazi_feladtok_02/mozi.md)
 1. [Bolt](./java/hazi_feladtok_02/bolt.md)
 
-</details
+---
+
+</details>
+
+<details>
+  <summary>Házi Feladatok 03</summary>
+
+---
+
+- [Tömb hatvány kiírás](./java/hazi_feladatok_03/tomb_hatvany_kiir.md)
+
+---
+
+</details>
 
 ---
 ---
