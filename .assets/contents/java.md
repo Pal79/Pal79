@@ -100,7 +100,8 @@
 
 ---
 
-- [Tömb hatvány kiírás](./java/hazi_feladatok_03/tomb_hatvany_kiir.md)
+1. [Tömb hatvány kiírás](./java/hazi_feladatok_03/tomb_hatvany_kiir.md)
+1. [Tömb intervallum kiír](./java/hazi_feladatok_03/tomb_intervallum_kiir.md)
 
 ---
 
