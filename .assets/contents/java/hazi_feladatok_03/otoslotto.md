@@ -35,6 +35,32 @@ public static void main(String[] args) {
 	ArrUpload(nums);
 
 	NumsUploadToFile(nums);
+    ThisWeeksWasTihrteenNumber(nums);
+}
+```
+
+> hetek, melyeken a 13-as számot kihúzták:
+
+```java
+// a. Ezeken a heteken volt a 13-as szám kihúzva
+private static void ThisWeeksWasTihrteenNumber(int[][] arr) {
+	try {
+		FileWriter fw = new FileWriter("statisztika.txt", false);
+
+		fw.write("Ezeken a heteken húzták a 13-as számot: ");
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = 0; j < arr[i].length; j++) {
+				if(arr[i][j] == 13) {
+					fw.write((i+1) + ". ");
+				}
+			}
+		}
+
+		fw.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 }
 ```
 
