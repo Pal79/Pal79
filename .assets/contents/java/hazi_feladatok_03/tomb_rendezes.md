@@ -10,16 +10,15 @@
 
 ---
 
-		/*
-		 * Generáljunk le a felhasználó által meghatározott intervallumon belüli véletlen számokat. 
-		 * A darabszámot szintén a felhasználó adja meg! (tomb_rendezes)
-		 * 
-		 * a. Hozzunk létre egy fájlt szamok.txt néven!
-		 * b. Írjuk ki a számokat a fájl első sorába a következő formátumban: A tömb elemei: 43 52 66 3
-		 * c. A második sorába írjuk ki a tömb elemeit rendezett formátumban:
-		 * A tömb elemei rendezve: 3 43 52 66
-		 * d. A páros elemeket egy külön fájlba is helyezzük el  paros_szamok.txt
-		 */
+> Generáljunk le a felhasználó által meghatározott intervallumon belüli véletlen számokat. 
+> A darabszámot szintén a felhasználó adja meg!
+>
+> (tomb_rendezes)
+>
+> a. Hozzunk létre egy fájlt szamok.txt néven!
+> b. Írjuk ki a számokat a fájl első sorába a következő formátumban: A tömb elemei: 43 52 66 3
+> c. A második sorába írjuk ki a tömb elemeit rendezett formátumban: A tömb elemei rendezve: 3 43 52 66
+> d. A páros elemeket egy külön fájlba is helyezzük el paros_szamok.txt
 
 > Main:
 
