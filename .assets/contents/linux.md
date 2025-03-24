@@ -33,6 +33,7 @@
 - [Tomcat](./linux/tomcat.md)
 - [Gimp telepítése](./linux/gimp.md)
 - [Google Chrome telepítése](./linux/google-chrome.md)
+- [SmPlayer telepítése](./linux/smplayer.md)
 
 ---
 
