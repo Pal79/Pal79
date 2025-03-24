@@ -36,6 +36,52 @@ public static void main(String[] args) {
 
 	NumsUploadToFile(nums);
     ThisWeeksWasTihrteenNumber(nums);
+    SoManyEvenAndSoManyOddNumbers(nums);
+}
+```
+
+> ennyi páros és páratlan szám volt:
+
+```java
+// b. Ennyi páros szám volt: X, ennyi páratlan: Y
+private static void SoManyEvenAndSoManyOddNumbers(int[][] arr) {
+	try {
+		BufferedReader br = new BufferedReader(
+				new InputStreamReader(
+						new FileInputStream("statisztika.txt"),"UTF-8"));
+
+		String content = "";
+		while(br.ready()) {
+			String row = br.readLine();
+			content = row;
+		}
+
+		FileWriter fw = new FileWriter("statisztika.txt", false);
+
+		int evens = 0;
+		int odds = 0;
+
+		fw.write(content);
+		fw.write("\n");
+
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = 0; j < arr[i].length; j++) {
+				if(arr[i][j] % 2 == 0) {
+					evens++;
+				} else {
+					odds++;
+				}
+			}
+		}
+		fw.write("Ennyi páros szám volt: " + evens + "\n");
+		fw.write("Ennyi páratlan szám volt: " + odds);
+
+		fw.close();
+		br.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 }
 ```
 
