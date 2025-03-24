@@ -8,7 +8,13 @@
 
 # Java telepítése és beállítása
 
-> A java LTS verziói: ```8 - 11 - 17```
+> | LTS verziók | Kiadás dátuma | Támogatás dátum | Kiterjesztett támogatás dátum |
+> | :-- | :-- | :-- | :-- |
+> | 8 | 2014 Március | 2022 Március | 2030 December |
+> | 11 | 2018 Szeptember | 2023 Szeptember | 2032 Január |
+> | 17 | 2021 Szeptember | 2026 Szeptember vagy később | 2029 Szeptember vagy később |
+> | 21 | 2023 Szeptember | 2028 Szeptember vagy később | 2031 Szeptember vagy később |
+> | 25 | 2025 Szeptember | 2026 Szeptember | 2033 Szeptember |
 > 
 > jelen esetben a 17-es java telepítése és beállítása
 
