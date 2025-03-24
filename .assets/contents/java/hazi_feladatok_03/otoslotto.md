@@ -1,0 +1,105 @@
+
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
+
+# otoslotto
+
+---
+
+> Készíts ötös-lottó alkalmazást! 
+> Egy teljes év húzásait szimulálja az alkalmazás, 
+> az egyes hetek kihúzott számait mentsük az otoslotto.txt állományba! 
+> Figyeljünk arra, hogy 1 héten azonos szám nem kerül kihúzásra! 
+> Soronként 1 hét adatai szerepeljenek a fájlba! 
+>
+> (otoslotto)
+>
+> Készítsünk statisztikát a statisztika.txt fájlba, 
+> melybe a következő adatokat tároljuk:
+>
+> - a. Ezeken a heteken volt a 13-as szám kihúzva
+> - b. Ennyi páros szám volt: X, ennyi páratlan: Y
+> - c. Kérjünk be egy hét sorszámát a felhasználótól, majd írjuk ki az adott hét nyerőszámait!
+> - d. Az összes kihúzott szám hány százaléka volt 80 felett?
+
+> Main:
+
+```java
+public static void main(String[] args) {
+
+	int[][] nums = new int[52][5];
+	ArrUpload(nums);
+
+	NumsUploadToFile(nums);
+}
+```
+
+> számok feltöltése fájlba:
+
+```java
+private static void NumsUploadToFile(int[][] arr) {
+	try {
+		FileWriter fw = new FileWriter("otoslotto.txt", false);
+
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = 0; j < arr[i].length; j++) {
+				fw.write(arr[i][j] + " ");
+			}
+			fw.write("\n");
+		}
+
+		fw.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+```
+
+> tömbfeltöltés:
+
+```java
+private static void ArrUpload(int[][] arr) {
+	Random r = new Random();
+
+	int[] temp_arr = new int[5];
+	int num;
+	boolean answer;
+
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			do {
+				num = r.nextInt(90-1+1)+1;
+				answer = ArrCheck(temp_arr, num);
+			} while(!answer);
+			temp_arr[j] = num;
+			arr[i][j] = temp_arr[j];
+		}
+	}
+}
+```
+
+> számok ismétlődésének ellenőrzése:
+
+```java
+private static boolean ArrCheck(int[] arr, int search) {
+	boolean is_on = true;
+	for(int item: arr) {
+		if(item == search) {
+			is_on = false;
+		}
+	}
+	return is_on;
+}
+```
+
+---
+
+- [Back to java](../../java.md)
+- [Back to main](../../../../README.md)
+
+---
