@@ -107,6 +107,7 @@
 1. [Kő, papír, olló](./java/hazi_feladatok_03/ko_papir_ollo.md)
 1. [Számkitalálós](./java/hazi_feladatok_03/szamkitalalos.md)
 1. [Tömb rendezés](./java/hazi_feladatok_03/tomb_rendezes.md)
+1. [Ötöslottó](./java/hazi_feladatok_03/otoslotto.md)
 
 ---
 
