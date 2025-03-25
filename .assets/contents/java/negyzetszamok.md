@@ -61,3 +61,45 @@ private static boolean IsDoubleOrIsInteger(double num1, double num2) {
 	}
 }
 ```
+
+> ## A program automatizálva:
+
+```java
+public static void main(String[] args) {
+
+	for(int i = 2; i < 100; i++) {
+		for(int j = 2; j < i+1; j++) {
+			if(IsDoubleOrIsInteger(i, j)) {
+				System.out.println("--------------------");
+				System.out.println(i + " ; " + j);
+				double num1 = i;
+				double num2 = j;
+				OperationDisplay(num1, num2);
+				System.out.println("--------------------");
+			}
+		}
+	}
+}
+```
+
+```java
+private static void OperationDisplay(double num1, double num2) {
+	double addition = Math.pow(num1, 2) + Math.pow(num2, 2);
+	double result = Math.sqrt(Math.pow(num1, 2) + Math.pow(num2, 2));
+
+	System.out.println(Math.pow(num1, 2) + " + " + Math.pow(num2, 2) + " = " + addition);
+	System.out.println("Az eredmény gyök alatt: " + result);
+}
+```
+
+```java
+private static boolean IsDoubleOrIsInteger(double num1, double num2) {
+	double result = Math.sqrt((Math.pow(num1, 2) + Math.pow(num2, 2)));
+
+	if(result % 1 == 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+```
