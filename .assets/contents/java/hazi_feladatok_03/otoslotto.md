@@ -40,6 +40,30 @@ public static void main(String[] args) {
 }
 ```
 
+> adott hét nyerőszámai:
+
+```java
+// c. Kérjünk be egy hét sorszámát a felhasználótól, majd írjuk ki az adott hét nyerőszámait!
+private static void WinningNumbersForTheGivenWeek(int[][] arr) {
+	System.out.println("c. feladat:");
+
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	try {
+		System.out.println("Add meg az adott hét számát (1-52): ");
+		int week = Integer.parseInt(br.readLine());
+
+		System.out.println(week + ". hét nyerőszámai:");
+		for(int i = 0; i < 5; i++) {
+			System.out.print(arr[week-1][i] + " ");
+		}
+	} catch (NumberFormatException | IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+```
+
 > ennyi páros és páratlan szám volt:
 
 ```java
