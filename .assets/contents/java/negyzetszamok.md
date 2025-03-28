@@ -1,4 +1,19 @@
 
+---
+
+- [Back to Java](../java.md)
+- [Back to main](../../../README.md)
+
+---
+
+# Négyzetszámok
+
+---
+
+> ## Manuális keresés:
+>
+> Main:
+
 ```java
 public static void main(String[] args) {
 
@@ -40,6 +55,8 @@ public static void main(String[] args) {
 }
 ```
 
+> megtalált számok kiírása:
+
 ```java
 private static void OperationDisplay(double num1, double num2) {
 	double addition = Math.pow(num1, 2) + Math.pow(num2, 2);
@@ -49,6 +66,8 @@ private static void OperationDisplay(double num1, double num2) {
 	System.out.println("Az eredmény gyök alatt: " + result);
 }
 ```
+
+> számok ellenőrzése:
 
 ```java
 private static boolean IsDoubleOrIsInteger(double num1, double num2) {
@@ -62,13 +81,42 @@ private static boolean IsDoubleOrIsInteger(double num1, double num2) {
 }
 ```
 
-> ## A program automatizálva:
+> ## négyzetszámok keresése, megadott intervallumok között
+>
+> Main:
 
 ```java
 public static void main(String[] args) {
 
-	for(int i = 2; i < 100; i++) {
-		for(int j = 2; j < i+1; j++) {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	System.out.println("Kérlek add meg az intervallumot.");
+	try {
+		System.out.print(" - intervallum kezdete: ");
+		int start = Integer.parseInt(br.readLine());
+		System.out.print(" - vége: ");
+		int end = Integer.parseInt(br.readLine());
+
+		System.out.println();
+		System.out.println("Négyzetszámok " + start + " és " + end + " között:");
+		System.out.println();
+
+		FindNumbers(start, end);
+	} catch (NumberFormatException | IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+```
+
+> számok keresése:
+
+```java
+private static void FindNumbers(int min, int max) {
+
+	int count = 2;
+	for(int i = min; i < max; i++) {
+		for(int j = count; j < max+1; j++) {
 			if(IsDoubleOrIsInteger(i, j)) {
 				System.out.println("--------------------");
 				System.out.println(i + " ; " + j);
@@ -78,9 +126,12 @@ public static void main(String[] args) {
 				System.out.println("--------------------");
 			}
 		}
+		count = 2;
 	}
 }
 ```
+
+> megtalált számok kiírása:
 
 ```java
 private static void OperationDisplay(double num1, double num2) {
@@ -91,6 +142,8 @@ private static void OperationDisplay(double num1, double num2) {
 	System.out.println("Az eredmény gyök alatt: " + result);
 }
 ```
+
+> számok ellenőrzése:
 
 ```java
 private static boolean IsDoubleOrIsInteger(double num1, double num2) {
@@ -103,3 +156,10 @@ private static boolean IsDoubleOrIsInteger(double num1, double num2) {
 	}
 }
 ```
+
+---
+
+- [Back to Java](../java.md)
+- [Back to main](../../../README.md)
+
+---
