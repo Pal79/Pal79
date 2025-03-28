@@ -114,6 +114,17 @@
 
 </details>
 
+<details>
+  <summary>Házi feladatok 04</summary>
+
+---
+
+1. [Ingatlan](./java/hazi_feladatok/ingatlan.md)
+
+---
+
+</details>
+
 ---
 ---
 
