@@ -119,7 +119,7 @@
 
 ---
 
-1. [Ingatlan](./java/hazi_feladatok/ingatlan.md)
+1. [Ingatlan](./java/hazi_feladatok_04/ingatlan.md)
 
 ---
 
