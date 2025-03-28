@@ -35,8 +35,41 @@ public static void main(String[] args) {
 	ArrUpload(nums);
 
 	NumsUploadToFile(nums);
-    ThisWeeksWasTihrteenNumber(nums);
-    SoManyEvenAndSoManyOddNumbers(nums);
+	System.out.println();
+	ThisWeeksWasTihrteenNumber(nums);
+	System.out.println();
+	SoManyEvenAndSoManyOddNumbers(nums);
+	System.out.println();
+	WinningNumbersForTheGivenWeek(nums);
+	System.out.println();
+	WhatPercentageOfTheNumbersDrawnWereOverEighty(nums);
+	System.out.println();
+}
+```
+
+> kihúzott számok hány százaléka 80 felett:
+
+```java
+// d. Az összes kihúzott szám hány százaléka volt 80 felett?
+private static void WhatPercentageOfTheNumbersDrawnWereOverEighty(int[][] arr) {
+	System.out.println("d. feladat:");
+
+	int all_count = 0;
+	int eighty_count = 0;
+	for(int i = 0; i < arr.length; i++) {
+		for(int j = 0; j < arr[i].length; j++) {
+			if(arr[i][j] > 80) {
+				eighty_count++;
+			}
+			all_count++;
+		}
+	}
+
+	//System.out.println(all_count + " " + eighty_count);
+
+	double result = Math.round((double)eighty_count / (double)all_count * 100);
+
+	System.out.println("A kihúzott számok " + result + "%-a volt 80 feletti szám.");
 }
 ```
 
@@ -57,6 +90,7 @@ private static void WinningNumbersForTheGivenWeek(int[][] arr) {
 		for(int i = 0; i < 5; i++) {
 			System.out.print(arr[week-1][i] + " ");
 		}
+		System.out.println();
 	} catch (NumberFormatException | IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -69,6 +103,7 @@ private static void WinningNumbersForTheGivenWeek(int[][] arr) {
 ```java
 // b. Ennyi páros szám volt: X, ennyi páratlan: Y
 private static void SoManyEvenAndSoManyOddNumbers(int[][] arr) {
+	System.out.println("b. feladat:");
 	try {
 		BufferedReader br = new BufferedReader(
 				new InputStreamReader(
@@ -114,6 +149,7 @@ private static void SoManyEvenAndSoManyOddNumbers(int[][] arr) {
 ```java
 // a. Ezeken a heteken volt a 13-as szám kihúzva
 private static void ThisWeeksWasTihrteenNumber(int[][] arr) {
+	System.out.println("a. feladat:");
 	try {
 		FileWriter fw = new FileWriter("statisztika.txt", false);
 
