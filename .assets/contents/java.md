@@ -120,6 +120,7 @@
 ---
 
 1. [Ingatlan](./java/hazi_feladatok_04/ingatlan.md)
+1. [Tanulók](./java/hazi_feladatok_04/tanulok.md)
 
 ---
 
