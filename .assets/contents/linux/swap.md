@@ -40,7 +40,7 @@
 | hogy az érték újraindítás után is megmaradjon | ```sudo nano /etc/sysctl.conf``` |
 |  hozzáfűzni a fájlhoz: | ```vm.swappiness=30``` |
 |  |  |
-| Archlinux esetében: | ```echo vm.swappiness=30 | sudo tee /etc/sysctl.d/99-swappiness.conf``` |
+| Archlinux esetében: | ```echo vm.swappiness=30 \| sudo tee /etc/sysctl.d/99-swappiness.conf``` |
 
 > Érdemes apró lépésenként csökkenteni vagy növelni az értéket az optimális érték megtalálásához.
 
