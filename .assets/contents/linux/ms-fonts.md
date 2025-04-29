@@ -10,7 +10,7 @@
 | :--- | :----- | :------ |
 | csomagok frissítése | ```sudo apt update``` | ```sudo pacman -Syu```<br>ha rég volt frissítve<br>```sudo pacman -Syyu``` |
 | AUR engedélyezése | ---- | ```sudo sed -Ei '/EnableAUR/s/^#//' /etc/pamac.conf``` |
-| Telepítés | ```sudo apt install ttf-mscorefonts-installer``` | ```pamac build ttf-ms-fonts``` |
+| Telepítés | ```sudo apt install ttf-mscorefonts-installer``` | ```pamac build ttf-ms-fonts```<br>vagy<br>```yay -S ttf-ms-fonts``` |
 
 ---
 
