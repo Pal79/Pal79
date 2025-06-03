@@ -30,11 +30,11 @@
 > docker rm image-id
 > ```
 >
->> ### összes image törlése
->>
->> ```
->> docker container prune
->> ```
+> ### összes image törlése
+>
+> ```
+> docker container prune
+> ```
 
 ---
 
@@ -74,91 +74,91 @@
 
 ---
 
-# docker futás közbeni parancs hozzáadás
-
-```
-docker exec container-id echo Bármilyen utsítás
-```
-
-> további parancsok hozzáadása (interaktivitás)
-
-```
-docker exec -it container-id echo Bármilyen utasítás
-```
-
-##### -i : kösd rá a lefuttatott programra ezt a terminált, hogy tudjak a programmal kommunikálni (további parancsokat átadni neki)
-##### -t A kommunikáció legyen szintaktikailag formázott (legyen szép)
-
+> ## docker futás közbeni parancs hozzáadás
+>
+> ```
+> docker exec container-id echo Bármilyen utsítás
+> ```
+>
+> ### további parancsok hozzáadása (interaktivitás)
+>
+> ```
+> docker exec -it container-id echo Bármilyen utasítás
+> ```
+>
+> ##### -i : kösd rá a lefuttatott programra ezt a terminált, hogy tudjak a programmal kommunikálni (további parancsokat átadni neki)
+> ##### -t A kommunikáció legyen szintaktikailag formázott (legyen szép)
+>
 > **kilépés az interakcióból: ctrl+d**
-
+>
 > exec nélküli interakció:
-
-```
-docker run -it container-name/container-id
-```
-
----
-
-# image létrehozása
-
-> fájlrendszer:
-
-```
-FROM alpine
-```
-
-> belső parancsok részlege (az image létrehozása előtt fut le):
-
-```
-RUN apk --update add openjdk7-jre
-```
-
-> (docker konténer elindítás előtt fut le)
-
-```
-CMD ["java", "-version"]
-```
+>
+> ```
+> docker run -it container-name/container-id
+> ```
 
 ---
 
-# docker build
-
-```
-docker build .
-```
-
----
-
-# Taggelés
-
-```
-docker build -t felhasznalonev/projektnev:latest .
-```
-
-> futtatás
-
-```
-docker run felhasznalonev/projektnev:latest
-```
-
-> vagy
-
-```
-docker run felhasznalonev/projektnev
-```
+> ## image létrehozása
+>
+> ### fájlrendszer:
+>
+> ```
+> FROM alpine
+> ```
+>
+> ### belső parancsok részlege (az image létrehozása előtt fut le):
+>
+> ```
+> RUN apk --update add openjdk7-jre
+> ```
+>
+> ### (docker konténer elindítás előtt fut le)
+>
+> ```
+> CMD ["java", "-version"]
+> ```
 
 ---
 
-# saját projekt létrehozása
-
+> ## docker build
+>
+> ```
+> docker build .
+> ```
 
 ---
 
-# port átirányítás
+> ## Taggelés
+>
+> ```
+> docker build -t felhasznalonev/projektnev:latest .
+> ```
+>
+> ### futtatás
+>
+> ```
+> docker run felhasznalonev/projektnev:latest
+> ```
+>
+> ### vagy
+>
+> ```
+> docker run felhasznalonev/projektnev
+> ```
 
-```
-docker run -p 8881:8888 felhasznalonev/projektnev
-```
+---
+
+> ## saját projekt létrehozása
+>
+
+---
+
+> ## port átirányítás
+> 
+> ```
+> docker run -p 8881:8888 felhasznalonev/projektnev
+> ```
 
 
 ---
