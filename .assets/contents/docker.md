@@ -1,67 +1,76 @@
-# hello-world
-
-```
-docker run hello-world = docker create hello-world && docker start -a hello-world-id
-```
 
 ---
 
-# konténerek listázása
-
-```
-Docker ps
-Docker ps -a
-```
+[Back to the first page](../../README.md)
 
 ---
 
-# image törlés
+> # Docker
 
-```
-docker rm image-id
-```
+> ## hello-world
+>
+> ```
+> docker run hello-world = docker create hello-world && docker start -a hello-world-id
+> ```
 
-> összes image törlése
+ ---
+>
+> ## konténerek listázása
+>
+> ```
+> Docker ps
+> Docker ps -a
+> ```
+>
+---
 
-```
-docker container prune
-```
+> ## image törlés
+>
+> ```
+> docker rm image-id
+> ```
+>
+>> ### összes image törlése
+>>
+>> ```
+>> docker container prune
+>> ```
 
 ---
 
-# docker konténer újraindítása
-
-```
-docker start container-id
-```
-
-> ha látni szeretném a lefutást a terminálon
-
-```
-docker start -a container-id
-```
-
-> indulástól a jelen pillanatig megnézem a log-ot
-
-```
-docker logs container-id
-```
+> ## docker konténer újraindítása
+>
+> ```
+> docker start container-id
+> ```
+>
+> ### ha látni szeretném a lefutást a terminálon
+>
+> ```
+> docker start -a container-id
+> ```
+>
+> ### indulástól a jelen pillanatig megnézem a log-ot
+>
+> ```
+> docker logs container-id
+> ```
 
 ---
 
-# docker leállítása
-
-> finom leállítás -> kb. 10mp a leállásig
-
-```
-docker stop container-id
-```
-
-> kemény leállítás -> rögtön leáll
-
-```
-docker kill container-id
-```
+> ## docker leállítása
+>
+> ### finom leállítás -> kb. 10mp a leállásig
+>
+> ```
+> docker stop container-id
+> ```
+>
+> ### kemény leállítás -> rögtön leáll
+>
+> ```
+> docker kill container-id
+> ```
 
 ---
 
@@ -154,4 +163,8 @@ docker run -p 8881:8888 felhasznalonev/projektnev
 
 ---
 
-- []
+---
+
+[Back to the first page](../../README.md)
+
+---
