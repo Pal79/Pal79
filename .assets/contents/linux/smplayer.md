@@ -8,7 +8,7 @@
 
 # SmPlayer telepítése
 
-## 1. Ellenőrizzük a hivatalos tárolókat (ez a preferált módszer):
+## 1. Ellenőrizzük a hivatalos tárolókat:
 
 Nyisd meg a terminált (Ctrl+Alt+T) és írd be a következő parancsot:
 ```Bash
