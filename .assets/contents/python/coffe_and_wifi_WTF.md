@@ -8,34 +8,33 @@
 
 # Coffee and wifi - wtf
 
-> Install the required packages first: 
-> - Open the Terminal
->
->    - On Windows type:
->    - python -m pip install -r requirements.txt
->
->    - On MacOS type:
->    - pip3 install -r requirements.txt
->
->    - On Linux type:
->    - pip install -r requirements.txt
->
-> This will install the packages from requirements.txt for this project.
-
-> requirements.txt:
-
-```txt
+### Install the required packages first: 
+Open the Terminal
+- On Windows type:
+```Bash
+python -m pip install -r requirements.txt
+```
+- On MacOS type:
+```Bash
+pip3 install -r requirements.txt
+```
+- On Linux type:
+```Bash
+pip install -r requirements.txt
+```
+This will install the packages from `requirements.txt` for this project.
+- `requirements.txt`:
+```TXT
 Bootstrap_Flask==2.2.0
 Flask==2.3.2
 Flask_WTF==1.1.1
 WTForms==3.0.1
 werkzeug==2.3.7
 ```
+### `./static/css/styles.css`
 
 <details>
-    <summary>./static/css/</summary>
-
-> styles.css:
+    <summary>styles.css</summary>
 
 ```css
 /* This CSS file will need to be added to the styling of 
@@ -67,11 +66,12 @@ a {
 
 </details>
 
+### `./templates/`
+
 <details>
-    <summary>./templates</summary>
+    <summary>Templates</summary>
 
-> add.html:
-
+- `add.html`:
 ```html
 {% extends 'base.html' %}
 <!--Don't forget your import here-->
@@ -96,9 +96,7 @@ a {
 
 {% endblock %}
 ```
-
-> base.html:
-
+- `base.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -121,9 +119,7 @@ a {
   </body>
 </html>
 ```
-
-> cafes.html:
-
+- `cafes.html`:
 ```html
 {% extends 'base.html' %}
 {% block title %}Restaurants{% endblock %}
@@ -161,9 +157,7 @@ a {
 
 {% endblock %}
 ```
-
-> index.html:
-
+- `index.html`:
 ```html
 {% extends 'base.html' %}
 {% block title %}Coffee and Wifi{% endblock %}
@@ -184,7 +178,7 @@ a {
 
 </details>
 
-> cafe-data.csv:
+- `cafe-data.csv`:
 
 ```csv
 Cafe Name,Location,Open,Close,Coffee,Wifi,Power
@@ -193,9 +187,7 @@ Esters,https://goo.gl/maps/13Tjc36HuPWLELaSA,8AM,3PM,☕☕☕☕,💪💪💪,�
 Ginger & White,https://goo.gl/maps/DqMx2g5LiAqv3pJQ9,7:30AM,5:30PM,☕☕☕,✘,🔌
 Mare Street Market,https://goo.gl/maps/ALR8iBiNN6tVfuAA8,8AM,1PM,☕☕,💪💪💪,🔌🔌🔌
 ```
-
-> main.py:
-
+- `main.py`:
 ```python
 from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap5
