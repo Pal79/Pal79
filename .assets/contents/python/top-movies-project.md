@@ -8,25 +8,23 @@
 
 # Top Movies project
 
----
-
-> Install the required packages first: 
-> - Open the Terminal
->
-> - On Windows type:
-> - python -m pip install -r requirements.txt
->
-> - On MacOS type:
-> - pip3 install -r requirements.txt
->
-> - On Linux type:
-> - pip install -r requirements.txt
->
-> This will install the packages from requirements.txt for this project.
-
-> ./requirements.txt
-
-```txt
+### Install the required packages first: 
+Open the Terminal
+- On Windows type:
+```Bash
+python -m pip install -r requirements.txt
+```
+- On MacOS type:
+```Bash
+pip3 install -r requirements.txt
+```
+- On Linux type:
+```Bash
+pip install -r requirements.txt
+```
+This will install the packages from requirements.txt for this project.
+- `./requirements.txt`
+```TXT
 Bootstrap_Flask==2.2.0
 Flask==2.3.2
 flask_sqlalchemy==3.0.5
@@ -36,11 +34,12 @@ WTForms==3.0.1
 werkzeug==2.3.7
 ```
 
+### `./templates/`
+
 <details>
-    <summary>./templates/</summary>
+    <summary>Templates</summary>
 
-> add.html
-
+- `add.html`
 ```html
 {% extends 'base.html' %}
 
@@ -52,9 +51,7 @@ werkzeug==2.3.7
 </div>
 {% endblock %}
 ```
-
-> base.html
-
+- `base.html`
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -96,9 +93,7 @@ werkzeug==2.3.7
   </body>
 </html>
 ```
-
-> edit.html
-
+- `edit.html`
 ```html
 {% extends 'base.html' %}
 
@@ -111,9 +106,7 @@ werkzeug==2.3.7
   </div>
 {% endblock %}
 ```
-
-> index.html
-
+- `index.html`
 ```html
 {% extends 'base.html' %}
 
@@ -153,9 +146,7 @@ werkzeug==2.3.7
 
 {% endblock %}
 ```
-
-> select.html
-
+- `select.html`
 ```html
 {% extends 'base.html' %}
 
@@ -174,10 +165,10 @@ werkzeug==2.3.7
 
 </details>
 
-<details>
-    <summary>./static/css/</summary>
+### `./static/css/`
 
-> styles.css
+<details>
+    <summary>styles.css</summary>
 
 ```css
 *, *:before, *:after {
@@ -398,10 +389,8 @@ werkzeug==2.3.7
 
 </details>
 
-> ./instance/ [movies.db](./top_movies_project/movies.db)
-
-> ./main.py
-
+- `./instance/`[movies.db](./top_movies_project/movies.db)
+- `./main.py`
 ```python
 from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap5
@@ -412,7 +401,7 @@ from wtforms.validators import DataRequired
 import requests
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'SECRET_KEY'
 Bootstrap5(app)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///movies.db"
