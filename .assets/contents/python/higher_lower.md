@@ -6,52 +6,36 @@
 
 ---
 
-> # How to run on Ubuntu
->
-> enter app dir and create .venv:
->
-> ```shell
-> python3 -m venv .venv
-> ```
->
-> activate .venv:
->
-> ```shell
-> source .venv/bin/activate
-> ```
->
-> install flask:
->
-> ```shell
-> pip install flask
-> ```
->
-> run app:
->
-> ```shell
-> python3 server.py
-> ```
->
-> open web browser and run this:
->
-> ```shell
-> 127.0.0.1:5001
-> ```
->
-> stop app run:
->
-> ```shell
-> Ctrl+C
-> ```
->
-> exit the venv:
->
-> ```shell
-> deactivate
-> ```
-
-> server.py:
-
+### Run on linux
+- `create` virtual environment:
+```Bash
+python3 -m venv .venv
+```
+- `activate` .venv:
+```Bash
+source .venv/bin/activate
+```
+- `install` flask:
+```Bash
+pip install flask
+```
+- `run` app:
+```Bash
+python3 server.py
+```
+- `open` web browser and run this:
+```Bash
+127.0.0.1:5001
+```
+- `stop` app run:
+```Bash
+Ctrl+C
+```
+- `exit` the venv:
+```Bash
+deactivate
+```
+- `server.py`:
 ```python
 from flask import Flask
 import random
