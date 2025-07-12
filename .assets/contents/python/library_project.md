@@ -8,40 +8,35 @@
 
 # Library Project
 
-> Install the required packages first:
-> - Open the Terminal
->
->    - On Windows type:
->    - python -m pip install -r requirements.txt
->
->    - On MacOS type:
->    - pip3 install -r requirements.txt
->
->    - On Linux type:
->    - pip install -r requirements.txt
->
-> This will install the packages from requirements.txt for this project.
-
-> requirements.txt
-
-```txt
+### Install the required packages first:
+Open the Terminal
+- On Windows type:
+```Bash
+python -m pip install -r requirements.txt
+```
+- On MacOS type:
+```Bash
+pip3 install -r requirements.txt
+```
+- On Linux type:
+```Bash
+pip install -r requirements.txt
+```
+This will install the packages from requirements.txt for this project.
+- `requirements.txt`
+```TXT
 Flask==2.3.2
 flask_sqlalchemy==3.0.5
 ```
+- `./instance/books.db`: ![books.db](./library_project/books.db)
+- `./books-collection.db`: ![books collection.db](./library_project/books-collection.db)
 
-> ./instance/books.db
->
-> ![books.db](./library_project/books.db)
-
-> ./books-collection.db
->
-> ![books collection.db](./library_project/books-collection.db)
+### `./templates/`
 
 <details>
-    <summary>./templates</summary>
+    <summary>Templates</summary>
 
-> add.html:
-
+- `add.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -62,9 +57,7 @@ flask_sqlalchemy==3.0.5
   </body>
 </html>
 ```
-
-> edit_rating.html:
-
+- `edit_rating.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -83,9 +76,7 @@ flask_sqlalchemy==3.0.5
     </body>
 </html>
 ```
-
-> index.html:
-
+- `index.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -115,8 +106,7 @@ flask_sqlalchemy==3.0.5
 
 </details>
 
-> main.py
-
+- `main.py`
 ```python
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
