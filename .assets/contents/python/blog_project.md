@@ -8,16 +8,16 @@
 
 # Blog Project
 
-> BootStrap:
->
-> - ![Clean Blog BootStrap](./blog_project/startbootstrap-clean-blog-gh-pages.zip)
+---
 
+### BootStrap:
+- ![Clean Blog BootStrap](./blog_project/startbootstrap-clean-blog-gh-pages.zip)
 
+### Templates:
 <details>
     <summary>./templates</summary>
 
-> about.html
-
+- `about.html`
 ```html
 {% include "header.html" %}
         <!-- Page Header-->
@@ -48,9 +48,7 @@
         <!-- Footer-->
 {% include "footer.html" %}
 ```
-
-> contact.html
-
+- `contact.html`
 ```html
 {% include "header.html" %}
         <!-- Page Header-->
@@ -135,9 +133,7 @@
         <!-- Footer-->
 {% include "footer.html" %}
 ```
-
-> footer.html
-
+- `footer.html`
 ```html
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -181,9 +177,7 @@
     </body>
 </html>
 ```
-
-> header.html
-
+- `header.html`
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -221,9 +215,7 @@
             </div>
         </nav>
 ```
-
-> index.html
-
+- `index.html`
 ```html
 {% include "header.html" %}
         <!-- Page Header-->
@@ -267,9 +259,7 @@
         <!-- Footer-->
 {% include "footer.html" %}
 ```
-
-> post.html
-
+- `post.html`
 ```html
 {% include "header.html" %}
         <!-- Page Header-->
@@ -303,11 +293,9 @@
         <!-- Footer-->
 {% include "footer.html" %}
 ```
-
 </details>
 
-> main.py
-
+- `main.py`
 ```python
 from flask import Flask, render_template, request
 import requests
@@ -316,7 +304,7 @@ import smtplib
 OWN_EMAIL = "pal.daniel.79@gmail.com"
 OWN_PASSWORD = "OWN_PASSWORD"
 
-API_ENDPOINT = "https://api.npoint.io/eb6cd8a5d783f501ee7d"
+API_ENDPOINT = "YOUR_API_ENDPOINT"
 posts = requests.get(API_ENDPOINT).json()
 #print(posts)
 PORT = 587
