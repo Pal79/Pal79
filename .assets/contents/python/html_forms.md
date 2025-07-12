@@ -7,12 +7,12 @@
 ---
 
 # Html Forms
+### `./templates/`
 
 <details>
-    <summary>./templates</summary>
+    <summary>Templates</summary>
 
-> index.html:
-
+- `index.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -34,8 +34,7 @@
 
 </details>
 
-> main.py:
-
+- `main.py`:
 ```python
 from flask import Flask, render_template, request
 
