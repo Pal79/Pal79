@@ -10,19 +10,18 @@
 
 ---
 
-> birthdays.csv (természetesen az email címeket és a neveket valós nevekre kell megváltoztatni)
-
+### `birthdays.csv` (természetesen az email címeket és a neveket valós nevekre kell megváltoztatni)
 ```csv
 name,email,year,month,day
 Teszt Elek,tesztelek@gmail.com,1968,08,03
-Végh Béla,veghbela@gmail.com,1973,03,08
-Tök Ödön,tokodon@gmail.com,1990,11,23
+Vincs Eszter,vincseszter@gmail.com,1973,03,08
+Para Zita,parazita@gmail.com,1990,11,23
+Kasza Blanka,kaszablanka@gmail.com,1980,05,16
+Ultra Viola,uv@gmail.com,2001,11,12
+Cserepes Virág,cserepesvirag@gmail.com,1965,10,28
 ```
-
-> ./letter_templates
-
-> letter_1.txt
-
+### `./letter_templates`
+- letter_1.txt
 ```TXT
 Dear [NAME]
 
@@ -32,9 +31,7 @@ All the best for the year!
 
 [SENDING_NAME]
 ```
-
-> letter_2.txt
-
+- letter_2.txt
 ```TXT
 Hey [NAME],
 
@@ -44,9 +41,7 @@ Lots of love,
 
 [SENDING_NAME]
 ```
-
-> letter_3.txt
-
+- letter_3.txt
 ```TXT
 Dear [NAME],
 
@@ -56,9 +51,7 @@ All my love,
 
 [SENDING_NAME]
 ```
-
-> main.py
-
+### `main.py`
 ```python
 import smtplib
 import random
