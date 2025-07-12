@@ -6,23 +6,23 @@
 
 ---
 
-> Install the required packages first: 
-> - Open the Terminal
->
->    - On Windows type:
->    - python -m pip install -r requirements.txt
->
->    - On MacOS type:
->    - pip3 install -r requirements.txt
->
->    - On Linux type:
->    - pip install -r requirements.txt
->
-> This will install the packages from requirements.txt for this project.
-
-> requirements.txt
-
-```txt
+### Install the required packages first: 
+Open the Terminal
+- On `Windows` type:
+```Bash
+python -m pip install -r requirements.txt
+```
+- On `MacOS` type:
+```Bash
+pip3 install -r requirements.txt
+```
+- On `Linux` type:
+```Bash
+pip install -r requirements.txt
+```
+This will install the packages from requirements.txt for this project.
+- `requirements.txt`
+```TXT
 Bootstrap_Flask==2.2.0
 Flask==2.3.2
 Flask_WTF==1.1.1
@@ -30,11 +30,12 @@ WTForms==3.0.1
 werkzeug==2.3.7
 ```
 
+### `./templates/`
+
 <details>
-    <summary>./templates/</summary>
+    <summary>templates</summary>
 
-> base.html:
-
+- `base.html`:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -58,9 +59,7 @@ werkzeug==2.3.7
   </body>
 </html>
 ```
-
-> denied.html:
-
+- `denied.html`:
 ```html
 {% extends "base.html" %}
 {% block title %}Access Denied{% endblock %}
@@ -78,9 +77,7 @@ werkzeug==2.3.7
 	</div>
 {% endblock %}
 ```
-
-> index.html:
-
+- `index.html`:
 ```html
 {% extends "base.html" %}
 {% block title %}Secrets{% endblock %}
@@ -94,9 +91,7 @@ werkzeug==2.3.7
     </div>
 {% endblock %}
 ```
-
-> login.html:
-
+- `login.html`:
 ```html
 {% extends "base.html" %}
 {% from 'bootstrap4/form.html' import render_form %}
@@ -125,9 +120,7 @@ werkzeug==2.3.7
         </div>
 {% endblock %}
 ```
-
-> success.html:
-
+- `success.html`:
 ```html
 {% extends "base.html" %}
 {% block title %}Access Granted{% endblock %}
@@ -142,8 +135,7 @@ werkzeug==2.3.7
 
 </details>
 
-> main.py:
-
+- `main.py`:
 ```python
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
@@ -160,7 +152,7 @@ class LoginForm(FlaskForm):
     submit = SubmitField(label="Log in")
 
 app = Flask(__name__)
-app.secret_key = "ez egy titok"
+app.secret_key = "ezegynagyontitkoskulcsamitsenkisemtudkitalálni"
 bootstrap = Bootstrap5(app) # bootstrap-flask inicializálása
 
 
