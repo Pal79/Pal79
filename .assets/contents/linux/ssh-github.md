@@ -18,7 +18,7 @@ ssh-keygen -t ed25519 -f ~/.ssh/id_rpi_ed25519 -C "kulcs a raspberry pi-hez"
 ha jelszót kér, csak nyugodtan nyomj `Enter`-t
 >
 Így létrehoz két fájlt:
-- `~/.ssh/id_rpi_ed25519` - ez a privát kulcsod ( :memo: NE OSZD MEG!!! )
+- `~/.ssh/id_rpi_ed25519` - ez a privát kulcsod ( :alert: NE OSZD MEG!!! )
 - `~/.ssh/id_rpi_ed25519.pub` ez lesz a publikus kulcs
 ### Feltöltés Pi-re
 Az IP-t természetesen módosítani kell a Raspberry IP címére
