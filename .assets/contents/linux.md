@@ -21,7 +21,7 @@
 - [Python telepítése](./linux/python.md)
 - [Numlock](./linux/numlock.md)
 - [TouchScreen](./linux/touchscreen.md)
-- [Github SSH kulcs](./linux/ssh-github.md)
+- [SSH kulcsok](./linux/ssh-github.md)
 - [UFW](./linux/ufw.md)
 - [Neofetch - Screenfetch](./linux/neofetch-screenfetch.md)
 - [Ubuntu - lamp](./linux/lamp-ubuntu.md)
