@@ -27,6 +27,7 @@
 - [Blog project](./python/blog_project.md)
 - [Library Project](./python/library_project.md)
 - [Top Movies Project](./python/top-movies-project.md)
+- [payments](https://github.com/Pal79/payments)
 
 ---
 
