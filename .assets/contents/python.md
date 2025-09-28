@@ -28,6 +28,7 @@
 - [Library Project](./python/library_project.md)
 - [Top Movies Project](./python/top-movies-project.md)
 - [payments](https://github.com/Pal79/payments)
+- [simple-todo-app](https://github.com/Pal79/simple-todo-app)
 
 ---
 
