@@ -30,7 +30,7 @@
 
 ---
 
-> érdemes ezt is megcsinálni:
+> érdemes ezt is megcsinálni, ha nem akarsz a virtualenv-el vergődni:
 
 ```shell
 mkdir -p ~/.config/pip && nano ~/.config/pip/pip.conf
